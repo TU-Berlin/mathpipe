@@ -34,7 +34,8 @@
     "mocha-lcov-reporter": "^1.2.0"
   },
   "dependencies": {
+    "bluebird": "^3.3.5",
     "commander": "^2.9.0",
-    "mkdirp": "^0.5.1"
+    "mkdirp-promise": "^1.0.4"
   }
 }

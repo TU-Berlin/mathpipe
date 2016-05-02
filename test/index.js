@@ -8,10 +8,8 @@ describe('Index', function () {
         it('should calculate hash for ' + JSON.stringify(tc.input), function () {
             assert.deepEqual(pipe.getHash(tc.input), tc.inputhash);
         });
-        it('should create dirs ' + JSON.stringify(tc.input), function (done) {
-            pipe.createFolder(tc.inputhash,'/tmp', function () {
-                done();
-            })
+        it('should create dirs ' + JSON.stringify(tc.input), function () {
+            return pipe.createFolder(tc.inputhash, '/tmp');
         });
     });
 });
