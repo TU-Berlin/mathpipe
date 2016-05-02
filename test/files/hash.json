@@ -1,22 +1,22 @@
 [
-    {
-        "inputhash": "00001453ad6771567b7ec0e7404a1e79",
-        "input": "P=3B_0\\left(\\frac{1-\\eta}{\\eta^2}\\right)e^{\\frac{3}{2}(B_0'-1)(1-\\eta)}"
-    },
-    {
-        "inputhash": "0000239ab0143b8cd72151bf852d7af7",
-        "input": "\\beth_{d-1}(|\\alpha+\\omega|^{2^{\\aleph_0}})"
-    },
-    {
-        "inputhash": "00004cd84d4d46d0e37b841cd7509c2c",
-        "input": "\\mathrm{REC}(N)"
-    },
-    {
-        "inputhash": "00009654348eebd7ab85d8599c25aace",
-        "input": "W(2, k) > 2^k\/k^\\varepsilon"
-    },
-    {
-        "inputhash": "0000a3595ace35143948315a2841b307",
-        "input": "h=-1"
-    }
+  {
+    "inputhash": "00001453ad6771567b7ec0e7404a1e79",
+    "input": "P=3B_0\\left(\\frac{1-\\eta}{\\eta^2}\\right)e^{\\frac{3}{2}(B_0'-1)(1-\\eta)}"
+  },
+  {
+    "inputhash": "0000239ab0143b8cd72151bf852d7af7",
+    "input": "\\beth_{d-1}(|\\alpha+\\omega|^{2^{\\aleph_0}})"
+  },
+  {
+    "inputhash": "00004cd84d4d46d0e37b841cd7509c2c",
+    "input": "\\mathrm{REC}(N)"
+  },
+  {
+    "inputhash": "00009654348eebd7ab85d8599c25aace",
+    "input": "W(2, k) > 2^k\/k^\\varepsilon"
+  },
+  {
+    "inputhash": "0000a3595ace35143948315a2841b307",
+    "input": "h=-1"
+  }
 ]
