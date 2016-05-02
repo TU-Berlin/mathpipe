@@ -9,7 +9,11 @@ describe('Index', function () {
             assert.deepEqual(pipe.getHash(tc.input), tc.inputhash);
         });
         it('should create dirs ' + JSON.stringify(tc.input), function () {
-            return pipe.createFolder(tc.inputhash, '/tmp');
+            return pipe.getFolder(tc.input, '/tmp').then(function (f) {
+                assert.equal(f.indexOf('/tmp/'), 0);
+                assert.ok(f.indexOf(tc.inputhash) > 0);
+                assert.ok(f.split('/').length > 4);
+            });
         });
     });
 });

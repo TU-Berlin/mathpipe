@@ -36,6 +36,6 @@
   "dependencies": {
     "bluebird": "^3.3.5",
     "commander": "^2.9.0",
-    "mkdirp-promise": "^1.0.4"
+    "mkdirp-bluebird": "^1.0.1"
   }
 }
