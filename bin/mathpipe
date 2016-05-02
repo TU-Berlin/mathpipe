@@ -1,0 +1,22 @@
+#!/usr/bin/env node
+
+var program = require('commander');
+var json = require('../package.json');
+
+program
+    .version(json.version)
+    .usage('[options] <tex input>')
+    .option('-v, --verbose', 'Show verbose information');
+
+
+program.parse(process.argv);
+
+var input = program.args.join(' ');
+
+var mathpipe = require('../');
+
+if (program.verbose) {
+    console.log(mathpipe.getHash(input))
+}
+
+process.exit(0);
