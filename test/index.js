@@ -2,6 +2,7 @@
 var assert = require('assert');
 var pipe = require('../');
 var testcases = require('./files/hash.json');
+var invalidTests = require('./files/invalid.json');
 
 describe('Index', function () {
     testcases.forEach(function (tc) {
@@ -15,6 +16,11 @@ describe('Index', function () {
                 assert.ok(f.indexOf(tc.inputhash) > 0);
                 assert.ok(f.split('/').length > 4);
             });
+        });
+    });
+    invalidTests.forEach(function (tc) {
+        it('should calculate hash for ' + JSON.stringify(tc.input), function () {
+            assert.deepEqual(pipe.getHash(tc.input), tc.inputhash);
         });
     });
 });
