@@ -23,4 +23,7 @@ describe('Index', function () {
             assert.deepEqual(pipe.getHash(tc.input), tc.inputhash);
         });
     });
+    it('should process a file', function() {
+        pipe.processFile('../test/files/hash.json');
+    });
 });
