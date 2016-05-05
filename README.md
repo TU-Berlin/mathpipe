@@ -14,7 +14,7 @@ npm install
 
 To use texvc you need to install in addition
 ```
-git submodule update
+git submodule init
 git submodule update
 sudo apt-get install build-essential dvipng ocaml \
   texlive-fonts-recommended texlive-lang-greek texlive-latex-recommended
