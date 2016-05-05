@@ -2,21 +2,21 @@
 
 var program = require('commander');
 var json = require('../package.json');
+var mathpipe = require('../');
 
 program
     .version(json.version)
-    .usage('[options] <tex input>')
-    .option('-v, --verbose', 'Show verbose information');
+    .option('-v, --verbose', 'show verbose information');
 
+program
+    .command('hash [tex...]')
+    .action( function(tex){
+        console.log(mathpipe.getHash(tex.join(' ')));
+    } );
 
+program
+    .command('convert <inputFile> <outputDir>')
+    .action(function (inputFile,outputDir) {
+        mathpipe.processFile(inputFile,outputDir).then(console.log('done'));
+    });
 program.parse(process.argv);
-
-var input = program.args.join(' ');
-
-var mathpipe = require('../');
-
-if (program.verbose) {
-    console.log(mathpipe.getHash(input))
-}
-
-process.exit(0);
