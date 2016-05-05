@@ -8,15 +8,15 @@ var assert = require('assert');
 describe('restbase', function () {
     validTests.forEach(function (tc) {
         it('vaild sample ' + JSON.stringify(tc.input), function () {
-            var getCheck = restbase.check(tc.input, 'http://api.formulasearchengine.com/en.wikipedia.org/v1/media/math/');
-            var getFoder = pipe.getFolder(tc.input, '/tmp');
+            var getCheck = restbase.check(tc.input, pipe.config.conf.restbase_url);
+            var getFoder = pipe.getFolder(tc.input, pipe.config.conf.out_dir);
             return restbase.getOutputs(getFoder, getCheck).all();
         });
     });
     invalidTests.forEach(function (tc) {
         it('invalid sample ' + JSON.stringify(tc.input), function () {
-            var getCheck = restbase.check(tc.input, 'http://api.formulasearchengine.com/en.wikipedia.org/v1/media/math/');
-            var getFoder = pipe.getFolder(tc.input, '/tmp');
+            var getCheck = restbase.check(tc.input, pipe.config.conf.restbase_url);
+            var getFoder = pipe.getFolder(tc.input, pipe.config.conf.out_dir);
             return restbase.getOutputs(getFoder, getCheck).all().catch(function(e){
                 assert.equal(e.name,'StatusCodeError');
             });

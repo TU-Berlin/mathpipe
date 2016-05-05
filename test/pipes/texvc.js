@@ -8,12 +8,12 @@ var assert = require('assert');
 describe('texvc', function () {
     testcases.forEach(function (tc) {
         it('should process ' + JSON.stringify(tc.input), function () {
-           return texvc(pipe.getFolder(tc.input, '/tmp'));
+           return texvc(pipe.getFolder(tc.input, pipe.config.conf.out_dir));
         });
     });
     invalidTests.forEach(function (tc) {
         it('should process invalid ' + JSON.stringify(tc.input), function () {
-            return texvc(pipe.getFolder(tc.input, '/tmp')).catch(function(e){
+            return texvc(pipe.getFolder(tc.input, pipe.config.conf.out_dir)).catch(function(e){
                 assert.equal(e.name,'Error');
                 assert.ok(e.message.startsWith('texvc failed'));
             });

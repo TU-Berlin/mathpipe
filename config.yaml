@@ -1,0 +1,13 @@
+# Number of worker processes to spawn.
+# Set to 0 to run everything in a single process without clustering.
+# Use 'ncpu' to run as many workers as there are CPU units
+num_workers: ncpu
+
+# The default directory for output
+out_dir: /tmp
+
+# Path of texvc
+texvc_path: ./tools/texvc/texvc
+
+# Restbase url
+restbase_url: http://api.formulasearchengine.com/en.wikipedia.org/v1/media/math/

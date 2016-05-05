@@ -10,9 +10,9 @@ describe('Index', function () {
             assert.deepEqual(pipe.getHash(tc.input), tc.inputhash);
         });
         it('should create dirs ' + JSON.stringify(tc.input), function () {
-            return pipe.getFolder(tc.input, '/tmp').then(function (folder) {
+            return pipe.getFolder(tc.input, pipe.config.conf.out_dir).then(function (folder) {
                 var f = folder.path;
-                assert.equal(f.indexOf('/tmp/'), 0);
+                assert.equal(f.indexOf(pipe.config.conf.out_dir), 0);
                 assert.ok(f.indexOf(tc.inputhash) > 0);
                 assert.ok(f.split('/').length > 4);
             });
