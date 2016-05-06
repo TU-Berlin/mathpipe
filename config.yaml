@@ -11,3 +11,6 @@ texvc_path: ./tools/texvc/texvc
 
 # Restbase url
 restbase_url: http://api.formulasearchengine.com/en.wikipedia.org/v1/media/math/
+
+# Number of formulae that are processed togehter
+chunk_size: 1000
