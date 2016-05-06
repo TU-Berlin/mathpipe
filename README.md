@@ -40,3 +40,13 @@ To run the program run
 ```
 bin/mathpipe --help
 ```
+
+## testdata
+You can get a [compact test data](http://en.formulasearchengine.com/w/images/math-formula-testcases.json)
+or the full english [wikipedia dataset](https://github.com/wikimedia/texvcjs/blob/master/test/en-wiki-formulae.json?raw=true). 
+
+Thereafter run
+```
+mathpipe convert <path relative to the mathpipe executable> [output directory]
+```
+For larger dataset it's recommended to adjust the [config](config.yaml).
