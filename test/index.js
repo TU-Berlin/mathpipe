@@ -24,6 +24,7 @@ describe('Index', function () {
         });
     });
     it('should process a file', function() {
-        pipe.processFile('../test/files/hash.json');
+        this.timeout(50000);
+        return pipe.processFile('../test/files/hash.json');
     });
 });
