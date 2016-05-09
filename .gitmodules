@@ -1,6 +1,3 @@
 [submodule "tools/texvc"]
 	path = tools/texvc
 	url = https://github.com/TU-Berlin/texvc
-[submodule "tools/screenshot-js"]
-	path = tools/screenshot-js
-	url = https://github.com/TU-Berlin/screenshot-js
