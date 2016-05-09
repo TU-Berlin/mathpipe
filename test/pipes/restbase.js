@@ -8,6 +8,7 @@ var assert = require('assert');
 describe('restbase', function () {
     validTests.forEach(function (tc) {
         it('vaild sample ' + JSON.stringify(tc.input), function () {
+            this.timeout(5000);
             var getCheck = restbase.check(tc.input, pipe.config.conf.restbase_url);
             var getFoder = pipe.getFolder(tc.input, pipe.config.conf.out_dir);
             return restbase.getOutputs(getFoder, getCheck).all();
@@ -15,6 +16,7 @@ describe('restbase', function () {
     });
     invalidTests.forEach(function (tc) {
         it('invalid sample ' + JSON.stringify(tc.input), function () {
+            this.timeout(5000);
             var getCheck = restbase.check(tc.input, pipe.config.conf.restbase_url);
             var getFoder = pipe.getFolder(tc.input, pipe.config.conf.out_dir);
             return restbase.getOutputs(getFoder, getCheck).all().catch(function(e){

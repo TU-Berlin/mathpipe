@@ -1,0 +1,2077 @@
+[
+  {
+    "id": "math.30381.0",
+    "input": "e^{i \\pi} + 1 = 0\\,\\!",
+    "texvcjs": "e^{{i\\pi }}+1=0\\,\\!"
+  },
+  {
+    "id": "math.30381.1",
+    "input": "e^{i \\pi} + 1 = 0\\,\\!",
+    "texvcjs": "e^{{i\\pi }}+1=0\\,\\!"
+  },
+  {
+    "id": "math.30381.2",
+    "input": "\\definecolor{red}{RGB}{255,0,0}\\pagecolor{red}e^{i \\pi} + 1 = 0\\,\\!",
+    "texvcjs": "\\definecolor {red}{RGB}{255,0,0}\\pagecolor {red}e^{{i\\pi }}+1=0\\,\\!"
+  },
+  {
+    "id": "math.30381.3",
+    "input": "\\sqrt{\\pi}",
+    "texvcjs": "{\\sqrt  {\\pi }}"
+  },
+  {
+    "id": "math.30381.4",
+    "input": "\\sqrt{\\pi}",
+    "texvcjs": "{\\sqrt  {\\pi }}"
+  },
+  {
+    "id": "math.30381.5",
+    "input": "\\pi",
+    "texvcjs": "\\pi "
+  },
+  {
+    "id": "math.30381.6",
+    "input": "\\pi",
+    "texvcjs": "\\pi "
+  },
+  {
+    "id": "math.30381.7",
+    "input": "\\text{abc}",
+    "texvcjs": "{\\text{abc}}"
+  },
+  {
+    "id": "math.30381.8",
+    "input": "\\alpha\\,\\!",
+    "texvcjs": "\\alpha \\,\\!"
+  },
+  {
+    "id": "math.30381.9",
+    "input": " f(x) = x^2\\,\\!",
+    "texvcjs": "f(x)=x^{2}\\,\\!"
+  },
+  {
+    "id": "math.30381.10",
+    "input": "\\sqrt{2}",
+    "texvcjs": "{\\sqrt  {2}}"
+  },
+  {
+    "id": "math.30381.11",
+    "input": "\\sqrt{1-e^2}\\!",
+    "texvcjs": "{\\sqrt  {1-e^{2}}}\\!"
+  },
+  {
+    "id": "math.30381.12",
+    "input": "\\sqrt{1-z^3}\\!",
+    "texvcjs": "{\\sqrt  {1-z^{3}}}\\!"
+  },
+  {
+    "id": "math.30381.13",
+    "input": "x",
+    "texvcjs": "x"
+  },
+  {
+    "id": "math.30381.14",
+    "input": "\\dot{a}, \\ddot{a}, \\acute{a}, \\grave{a} \\!",
+    "texvcjs": "{\\dot  {a}},{\\ddot  {a}},{\\acute  {a}},{\\grave  {a}}\\!"
+  },
+  {
+    "id": "math.30381.15",
+    "input": "\\check{a}, \\breve{a}, \\tilde{a}, \\bar{a} \\!",
+    "texvcjs": "{\\check  {a}},{\\breve  {a}},{\\tilde  {a}},{\\bar  {a}}\\!"
+  },
+  {
+    "id": "math.30381.16",
+    "input": "\\hat{a}, \\widehat{a}, \\vec{a} \\!",
+    "texvcjs": "{\\hat  {a}},\\widehat {a},{\\vec  {a}}\\!"
+  },
+  {
+    "id": "math.30381.17",
+    "input": "\\exp_a b = a^b, \\exp b = e^b, 10^m \\!",
+    "texvcjs": "\\exp _{a}b=a^{b},\\exp b=e^{b},10^{m}\\!"
+  },
+  {
+    "id": "math.30381.18",
+    "input": "\\ln c, \\lg d = \\log e, \\log_{10} f \\!",
+    "texvcjs": "\\ln c,\\lg d=\\log e,\\log _{{10}}f\\!"
+  },
+  {
+    "id": "math.30381.19",
+    "input": "\\sin a, \\cos b, \\tan c, \\cot d, \\sec e, \\csc f\\!",
+    "texvcjs": "\\sin a,\\cos b,\\tan c,\\cot d,\\sec e,\\csc f\\!"
+  },
+  {
+    "id": "math.30381.20",
+    "input": "\\arcsin h, \\arccos i, \\arctan j \\!",
+    "texvcjs": "\\arcsin h,\\arccos i,\\arctan j\\!"
+  },
+  {
+    "id": "math.30381.21",
+    "input": "\\sinh k, \\cosh l, \\tanh m, \\coth n \\!",
+    "texvcjs": "\\sinh k,\\cosh l,\\tanh m,\\coth n\\!"
+  },
+  {
+    "id": "math.30381.22",
+    "input": "\\operatorname{sh}\\,k, \\operatorname{ch}\\,l, \\operatorname{th}\\,m, \\operatorname{coth}\\,n \\!",
+    "texvcjs": "\\operatorname {sh}\\,k,\\operatorname {ch}\\,l,\\operatorname {th}\\,m,\\operatorname {coth}\\,n\\!"
+  },
+  {
+    "id": "math.30381.23",
+    "input": "\\operatorname{argsh}\\,o, \\operatorname{argch}\\,p, \\operatorname{argth}\\,q \\!",
+    "texvcjs": "\\operatorname {argsh}\\,o,\\operatorname {argch}\\,p,\\operatorname {argth}\\,q\\!"
+  },
+  {
+    "id": "math.30381.24",
+    "input": "\\sgn r, \\left\\vert s \\right\\vert \\!",
+    "texvcjs": "\\operatorname{sgn} r,\\left\\vert s\\right\\vert \\!"
+  },
+  {
+    "id": "math.30381.25",
+    "input": "\\min(x,y), \\max(x,y) \\!",
+    "texvcjs": "\\min(x,y),\\max(x,y)\\!"
+  },
+  {
+    "id": "math.30381.26",
+    "input": "\\min x, \\max y, \\inf s, \\sup t \\!",
+    "texvcjs": "\\min x,\\max y,\\inf s,\\sup t\\!"
+  },
+  {
+    "id": "math.30381.27",
+    "input": "\\lim u, \\liminf v, \\limsup w \\!",
+    "texvcjs": "\\lim u,\\liminf v,\\limsup w\\!"
+  },
+  {
+    "id": "math.30381.28",
+    "input": "\\dim p, \\deg q, \\det m, \\ker\\phi \\!",
+    "texvcjs": "\\dim p,\\deg q,\\det m,\\ker \\phi \\!"
+  },
+  {
+    "id": "math.30381.29",
+    "input": "\\Pr j, \\hom l, \\lVert z \\rVert, \\arg z \\!",
+    "texvcjs": "\\Pr j,\\hom l,\\lVert z\\rVert ,\\arg z\\!"
+  },
+  {
+    "id": "math.30381.30",
+    "input": "dt, \\operatorname{d}\\!t, \\partial t, \\nabla\\psi\\!",
+    "texvcjs": "dt,\\operatorname {d}\\!t,\\partial t,\\nabla \\psi \\!"
+  },
+  {
+    "id": "math.30381.31",
+    "input": "dy\/dx, \\operatorname{d}\\!y\/\\operatorname{d}\\!x, {dy \\over dx}, {\\operatorname{d}\\!y\\over\\operatorname{d}\\!x}, {\\partial^2\\over\\partial x_1\\partial x_2}y \\!",
+    "texvcjs": "dy\/dx,\\operatorname {d}\\!y\/\\operatorname {d}\\!x,{dy \\over dx},{\\operatorname {d}\\!y \\over \\operatorname {d}\\!x},{\\partial ^{2} \\over \\partial x_{1}\\partial x_{2}}y\\!"
+  },
+  {
+    "id": "math.30381.32",
+    "input": "\\prime, \\backprime, f^\\prime, f', f'', f^{(3)} \\!, \\dot y, \\ddot y",
+    "texvcjs": "\\prime ,\\backprime ,f^{\\prime },f',f'',f^{{(3)}}\\!,{\\dot  y},{\\ddot  y}"
+  },
+  {
+    "id": "math.30381.33",
+    "input": "\\infty, \\aleph, \\complement, \\backepsilon, \\eth, \\Finv, \\hbar \\!",
+    "texvcjs": "\\infty ,\\aleph ,\\complement ,\\backepsilon ,\\eth ,\\Finv ,\\hbar \\!"
+  },
+  {
+    "id": "math.30381.34",
+    "input": "\\Im, \\imath, \\jmath, \\Bbbk, \\ell, \\mho, \\wp, \\Re, \\circledS \\!",
+    "texvcjs": "\\Im ,\\imath ,\\jmath ,\\Bbbk ,\\ell ,\\mho ,\\wp ,\\Re ,\\circledS \\!"
+  },
+  {
+    "id": "math.30381.35",
+    "input": "s_k \\equiv 0 \\pmod{m} \\!",
+    "texvcjs": "s_{k}\\equiv 0{\\pmod  {m}}\\!"
+  },
+  {
+    "id": "math.30381.36",
+    "input": "a\\,\\bmod\\,b \\!",
+    "texvcjs": "a\\,{\\bmod  \\,}b\\!"
+  },
+  {
+    "id": "math.30381.37",
+    "input": "\\gcd(m, n), \\operatorname{lcm}(m, n)",
+    "texvcjs": "\\gcd(m,n),\\operatorname {lcm}(m,n)"
+  },
+  {
+    "id": "math.30381.38",
+    "input": "\\mid, \\nmid, \\shortmid, \\nshortmid \\!",
+    "texvcjs": "\\mid ,\\nmid ,\\shortmid ,\\nshortmid \\!"
+  },
+  {
+    "id": "math.30381.39",
+    "input": "\\surd, \\sqrt{2}, \\sqrt[n]{}, \\sqrt[3]{x^3+y^3 \\over 2} \\!",
+    "texvcjs": "\\surd ,{\\sqrt  {2}},{\\sqrt[ {n}]{}},{\\sqrt[ {3}]{x^{3}+y^{3} \\over 2}}\\!"
+  },
+  {
+    "id": "math.30381.40",
+    "input": "+, -, \\pm, \\mp, \\dotplus \\!",
+    "texvcjs": "+,-,\\pm ,\\mp ,\\dotplus \\!"
+  },
+  {
+    "id": "math.30381.41",
+    "input": "\\times, \\div, \\divideontimes, \/, \\backslash \\!",
+    "texvcjs": "\\times ,\\div ,\\divideontimes ,\/,\\backslash \\!"
+  },
+  {
+    "id": "math.30381.42",
+    "input": "\\cdot, * \\ast, \\star, \\circ, \\bullet \\!",
+    "texvcjs": "\\cdot ,*\\ast ,\\star ,\\circ ,\\bullet \\!"
+  },
+  {
+    "id": "math.30381.43",
+    "input": "\\boxplus, \\boxminus, \\boxtimes, \\boxdot \\!",
+    "texvcjs": "\\boxplus ,\\boxminus ,\\boxtimes ,\\boxdot \\!"
+  },
+  {
+    "id": "math.30381.44",
+    "input": "\\oplus, \\ominus, \\otimes, \\oslash, \\odot\\!",
+    "texvcjs": "\\oplus ,\\ominus ,\\otimes ,\\oslash ,\\odot \\!"
+  },
+  {
+    "id": "math.30381.45",
+    "input": "\\circleddash, \\circledcirc, \\circledast \\!",
+    "texvcjs": "\\circleddash ,\\circledcirc ,\\circledast \\!"
+  },
+  {
+    "id": "math.30381.46",
+    "input": "\\bigoplus, \\bigotimes, \\bigodot \\!",
+    "texvcjs": "\\bigoplus ,\\bigotimes ,\\bigodot \\!"
+  },
+  {
+    "id": "math.30381.47",
+    "input": "\\{ \\}, \\O \\empty \\emptyset, \\varnothing \\!",
+    "texvcjs": "\\{\\},\\emptyset \\emptyset \\emptyset ,\\varnothing \\!"
+  },
+  {
+    "id": "math.30381.48",
+    "input": "\\in, \\notin \\not\\in, \\ni, \\not\\ni \\!",
+    "texvcjs": "\\in ,\\notin \\not \\in ,\\ni ,\\not \\ni \\!"
+  },
+  {
+    "id": "math.30381.49",
+    "input": "\\cap, \\Cap, \\sqcap, \\bigcap \\!",
+    "texvcjs": "\\cap ,\\Cap ,\\sqcap ,\\bigcap \\!"
+  },
+  {
+    "id": "math.30381.50",
+    "input": "\\cup, \\Cup, \\sqcup, \\bigcup, \\bigsqcup, \\uplus, \\biguplus \\!",
+    "texvcjs": "\\cup ,\\Cup ,\\sqcup ,\\bigcup ,\\bigsqcup ,\\uplus ,\\biguplus \\!"
+  },
+  {
+    "id": "math.30381.51",
+    "input": "\\setminus, \\smallsetminus, \\times \\!",
+    "texvcjs": "\\setminus ,\\smallsetminus ,\\times \\!"
+  },
+  {
+    "id": "math.30381.52",
+    "input": "\\subset, \\Subset, \\sqsubset \\!",
+    "texvcjs": "\\subset ,\\Subset ,\\sqsubset \\!"
+  },
+  {
+    "id": "math.30381.53",
+    "input": "\\supset, \\Supset, \\sqsupset \\!",
+    "texvcjs": "\\supset ,\\Supset ,\\sqsupset \\!"
+  },
+  {
+    "id": "math.30381.54",
+    "input": "\\subseteq, \\nsubseteq, \\subsetneq, \\varsubsetneq, \\sqsubseteq \\!",
+    "texvcjs": "\\subseteq ,\\nsubseteq ,\\subsetneq ,\\varsubsetneq ,\\sqsubseteq \\!"
+  },
+  {
+    "id": "math.30381.55",
+    "input": "\\supseteq, \\nsupseteq, \\supsetneq, \\varsupsetneq, \\sqsupseteq \\!",
+    "texvcjs": "\\supseteq ,\\nsupseteq ,\\supsetneq ,\\varsupsetneq ,\\sqsupseteq \\!"
+  },
+  {
+    "id": "math.30381.56",
+    "input": "\\subseteqq, \\nsubseteqq, \\subsetneqq, \\varsubsetneqq \\!",
+    "texvcjs": "\\subseteqq ,\\nsubseteqq ,\\subsetneqq ,\\varsubsetneqq \\!"
+  },
+  {
+    "id": "math.30381.57",
+    "input": "\\supseteqq, \\nsupseteqq, \\supsetneqq, \\varsupsetneqq \\!",
+    "texvcjs": "\\supseteqq ,\\nsupseteqq ,\\supsetneqq ,\\varsupsetneqq \\!"
+  },
+  {
+    "id": "math.30381.58",
+    "input": "=, \\ne, \\neq, \\equiv, \\not\\equiv \\!",
+    "texvcjs": "=,\\neq ,\\neq ,\\equiv ,\\not \\equiv \\!"
+  },
+  {
+    "id": "math.30381.59",
+    "input": "\\doteq, \\doteqdot, \\overset{\\underset{\\mathrm{def}}{}}{=}, := \\!",
+    "texvcjs": "\\doteq ,\\doteqdot ,{\\overset  {{\\underset  {{\\mathrm  {def}}}{}}}{=}},:=\\!"
+  },
+  {
+    "id": "math.30381.60",
+    "input": "\\sim, \\nsim, \\backsim, \\thicksim, \\simeq, \\backsimeq, \\eqsim, \\cong, \\ncong \\!",
+    "texvcjs": "\\sim ,\\nsim ,\\backsim ,\\thicksim ,\\simeq ,\\backsimeq ,\\eqsim ,\\cong ,\\ncong \\!"
+  },
+  {
+    "id": "math.30381.61",
+    "input": "\\approx, \\thickapprox, \\approxeq, \\asymp, \\propto, \\varpropto \\!",
+    "texvcjs": "\\approx ,\\thickapprox ,\\approxeq ,\\asymp ,\\propto ,\\varpropto \\!"
+  },
+  {
+    "id": "math.30381.62",
+    "input": "<, \\nless, \\ll, \\not\\ll, \\lll, \\not\\lll, \\lessdot \\!",
+    "texvcjs": "<,\\nless ,\\ll ,\\not \\ll ,\\lll ,\\not \\lll ,\\lessdot \\!"
+  },
+  {
+    "id": "math.30381.63",
+    "input": ">, \\ngtr, \\gg, \\not\\gg, \\ggg, \\not\\ggg, \\gtrdot \\!",
+    "texvcjs": ">,\\ngtr ,\\gg ,\\not \\gg ,\\ggg ,\\not \\ggg ,\\gtrdot \\!"
+  },
+  {
+    "id": "math.30381.64",
+    "input": "\\le, \\leq, \\lneq, \\leqq, \\nleq, \\nleqq, \\lneqq, \\lvertneqq \\!",
+    "texvcjs": "\\leq ,\\leq ,\\lneq ,\\leqq ,\\nleq ,\\nleqq ,\\lneqq ,\\lvertneqq \\!"
+  },
+  {
+    "id": "math.30381.65",
+    "input": "\\ge, \\geq, \\gneq, \\geqq, \\ngeq, \\ngeqq, \\gneqq, \\gvertneqq \\!",
+    "texvcjs": "\\geq ,\\geq ,\\gneq ,\\geqq ,\\ngeq ,\\ngeqq ,\\gneqq ,\\gvertneqq \\!"
+  },
+  {
+    "id": "math.30381.66",
+    "input": "\\lessgtr, \\lesseqgtr, \\lesseqqgtr, \\gtrless, \\gtreqless, \\gtreqqless \\!",
+    "texvcjs": "\\lessgtr ,\\lesseqgtr ,\\lesseqqgtr ,\\gtrless ,\\gtreqless ,\\gtreqqless \\!"
+  },
+  {
+    "id": "math.30381.67",
+    "input": "\\leqslant, \\nleqslant, \\eqslantless \\!",
+    "texvcjs": "\\leqslant ,\\nleqslant ,\\eqslantless \\!"
+  },
+  {
+    "id": "math.30381.68",
+    "input": "\\geqslant, \\ngeqslant, \\eqslantgtr \\!",
+    "texvcjs": "\\geqslant ,\\ngeqslant ,\\eqslantgtr \\!"
+  },
+  {
+    "id": "math.30381.69",
+    "input": "\\lesssim, \\lnsim, \\lessapprox, \\lnapprox \\!",
+    "texvcjs": "\\lesssim ,\\lnsim ,\\lessapprox ,\\lnapprox \\!"
+  },
+  {
+    "id": "math.30381.70",
+    "input": "\\gtrsim, \\gnsim, \\gtrapprox, \\gnapprox \\,",
+    "texvcjs": "\\gtrsim ,\\gnsim ,\\gtrapprox ,\\gnapprox \\,"
+  },
+  {
+    "id": "math.30381.71",
+    "input": "\\prec, \\nprec, \\preceq, \\npreceq, \\precneqq \\!",
+    "texvcjs": "\\prec ,\\nprec ,\\preceq ,\\npreceq ,\\precneqq \\!"
+  },
+  {
+    "id": "math.30381.72",
+    "input": "\\succ, \\nsucc, \\succeq, \\nsucceq, \\succneqq \\!",
+    "texvcjs": "\\succ ,\\nsucc ,\\succeq ,\\nsucceq ,\\succneqq \\!"
+  },
+  {
+    "id": "math.30381.73",
+    "input": "\\preccurlyeq, \\curlyeqprec \\,",
+    "texvcjs": "\\preccurlyeq ,\\curlyeqprec \\,"
+  },
+  {
+    "id": "math.30381.74",
+    "input": "\\succcurlyeq, \\curlyeqsucc \\,",
+    "texvcjs": "\\succcurlyeq ,\\curlyeqsucc \\,"
+  },
+  {
+    "id": "math.30381.75",
+    "input": "\\precsim, \\precnsim, \\precapprox, \\precnapprox \\,",
+    "texvcjs": "\\precsim ,\\precnsim ,\\precapprox ,\\precnapprox \\,"
+  },
+  {
+    "id": "math.30381.76",
+    "input": "\\succsim, \\succnsim, \\succapprox, \\succnapprox \\,",
+    "texvcjs": "\\succsim ,\\succnsim ,\\succapprox ,\\succnapprox \\,"
+  },
+  {
+    "id": "math.30381.77",
+    "input": "\\parallel, \\nparallel, \\shortparallel, \\nshortparallel \\!",
+    "texvcjs": "\\parallel ,\\nparallel ,\\shortparallel ,\\nshortparallel \\!"
+  },
+  {
+    "id": "math.30381.78",
+    "input": "\\perp, \\angle, \\sphericalangle, \\measuredangle, 45^\\circ \\!",
+    "texvcjs": "\\perp ,\\angle ,\\sphericalangle ,\\measuredangle ,45^{\\circ }\\!"
+  },
+  {
+    "id": "math.30381.79",
+    "input": "\\Box, \\blacksquare, \\diamond, \\Diamond \\lozenge, \\blacklozenge, \\bigstar \\!",
+    "texvcjs": "\\Box ,\\blacksquare ,\\diamond ,\\Diamond \\lozenge ,\\blacklozenge ,\\bigstar \\!"
+  },
+  {
+    "id": "math.30381.80",
+    "input": "\\bigcirc, \\triangle \\bigtriangleup, \\bigtriangledown \\!",
+    "texvcjs": "\\bigcirc ,\\triangle \\bigtriangleup ,\\bigtriangledown \\!"
+  },
+  {
+    "id": "math.30381.81",
+    "input": "\\vartriangle, \\triangledown\\!",
+    "texvcjs": "\\vartriangle ,\\triangledown \\!"
+  },
+  {
+    "id": "math.30381.82",
+    "input": "\\blacktriangle, \\blacktriangledown, \\blacktriangleleft, \\blacktriangleright \\!",
+    "texvcjs": "\\blacktriangle ,\\blacktriangledown ,\\blacktriangleleft ,\\blacktriangleright \\!"
+  },
+  {
+    "id": "math.30381.83",
+    "input": "\\forall, \\exists, \\nexists \\!",
+    "texvcjs": "\\forall ,\\exists ,\\nexists \\!"
+  },
+  {
+    "id": "math.30381.84",
+    "input": "\\therefore, \\because, \\And \\!",
+    "texvcjs": "\\therefore ,\\because ,\\And \\!"
+  },
+  {
+    "id": "math.30381.85",
+    "input": "\\or \\lor \\vee, \\curlyvee, \\bigvee \\!",
+    "texvcjs": "\\lor \\lor \\vee ,\\curlyvee ,\\bigvee \\!"
+  },
+  {
+    "id": "math.30381.86",
+    "input": "\\and \\land \\wedge, \\curlywedge, \\bigwedge \\!",
+    "texvcjs": "\\land \\land \\wedge ,\\curlywedge ,\\bigwedge \\!"
+  },
+  {
+    "id": "math.30381.87",
+    "input": "\\bar{q}, \\bar{abc}, \\overline{q}, \\overline{abc}, \\!",
+    "texvcjs": "{\\bar  {q}},{\\bar  {abc}},\\overline {q},\\overline {abc},\\!"
+  },
+  {
+    "id": "math.30381.88",
+    "input": "\\lnot \\neg, \\not\\operatorname{R}, \\bot, \\top \\!",
+    "texvcjs": "\\lnot \\neg ,\\not \\operatorname {R},\\bot ,\\top \\!"
+  },
+  {
+    "id": "math.30381.89",
+    "input": "\\vdash \\dashv, \\vDash, \\Vdash, \\models \\!",
+    "texvcjs": "\\vdash \\dashv ,\\vDash ,\\Vdash ,\\models \\!"
+  },
+  {
+    "id": "math.30381.90",
+    "input": "\\Vvdash \\nvdash \\nVdash \\nvDash \\nVDash \\!",
+    "texvcjs": "\\Vvdash \\nvdash \\nVdash \\nvDash \\nVDash \\!"
+  },
+  {
+    "id": "math.30381.91",
+    "input": "\\ulcorner \\urcorner \\llcorner \\lrcorner \\,",
+    "texvcjs": "\\ulcorner \\urcorner \\llcorner \\lrcorner \\,"
+  },
+  {
+    "id": "math.30381.92",
+    "input": "\\Rrightarrow, \\Lleftarrow \\!",
+    "texvcjs": "\\Rrightarrow ,\\Lleftarrow \\!"
+  },
+  {
+    "id": "math.30381.93",
+    "input": "\\Rightarrow, \\nRightarrow, \\Longrightarrow \\implies\\!",
+    "texvcjs": "\\Rightarrow ,\\nRightarrow ,\\Longrightarrow \\implies \\!"
+  },
+  {
+    "id": "math.30381.94",
+    "input": "\\Leftarrow, \\nLeftarrow, \\Longleftarrow \\!",
+    "texvcjs": "\\Leftarrow ,\\nLeftarrow ,\\Longleftarrow \\!"
+  },
+  {
+    "id": "math.30381.95",
+    "input": "\\Leftrightarrow, \\nLeftrightarrow, \\Longleftrightarrow \\iff \\!",
+    "texvcjs": "\\Leftrightarrow ,\\nLeftrightarrow ,\\Longleftrightarrow \\iff \\!"
+  },
+  {
+    "id": "math.30381.96",
+    "input": "\\Uparrow, \\Downarrow, \\Updownarrow \\!",
+    "texvcjs": "\\Uparrow ,\\Downarrow ,\\Updownarrow \\!"
+  },
+  {
+    "id": "math.30381.97",
+    "input": "\\rightarrow \\to, \\nrightarrow, \\longrightarrow\\!",
+    "texvcjs": "\\rightarrow \\to ,\\nrightarrow ,\\longrightarrow \\!"
+  },
+  {
+    "id": "math.30381.98",
+    "input": "\\leftarrow \\gets, \\nleftarrow, \\longleftarrow\\!",
+    "texvcjs": "\\leftarrow \\gets ,\\nleftarrow ,\\longleftarrow \\!"
+  },
+  {
+    "id": "math.30381.99",
+    "input": "\\leftrightarrow, \\nleftrightarrow, \\longleftrightarrow \\!",
+    "texvcjs": "\\leftrightarrow ,\\nleftrightarrow ,\\longleftrightarrow \\!"
+  },
+  {
+    "id": "math.30381.100",
+    "input": "\\uparrow, \\downarrow, \\updownarrow \\!",
+    "texvcjs": "\\uparrow ,\\downarrow ,\\updownarrow \\!"
+  },
+  {
+    "id": "math.30381.101",
+    "input": "\\nearrow, \\swarrow, \\nwarrow, \\searrow \\!",
+    "texvcjs": "\\nearrow ,\\swarrow ,\\nwarrow ,\\searrow \\!"
+  },
+  {
+    "id": "math.30381.102",
+    "input": "\\mapsto, \\longmapsto \\!",
+    "texvcjs": "\\mapsto ,\\longmapsto \\!"
+  },
+  {
+    "id": "math.30381.103",
+    "input": "\\rightharpoonup \\rightharpoondown \\leftharpoonup \\leftharpoondown \\upharpoonleft \\upharpoonright \\downharpoonleft \\downharpoonright \\rightleftharpoons \\leftrightharpoons \\,\\!",
+    "texvcjs": "\\rightharpoonup \\rightharpoondown \\leftharpoonup \\leftharpoondown \\upharpoonleft \\upharpoonright \\downharpoonleft \\downharpoonright \\rightleftharpoons \\leftrightharpoons \\,\\!"
+  },
+  {
+    "id": "math.30381.104",
+    "input": "\\curvearrowleft \\circlearrowleft \\Lsh \\upuparrows \\rightrightarrows \\rightleftarrows \\rightarrowtail \\looparrowright \\,\\!",
+    "texvcjs": "\\curvearrowleft \\circlearrowleft \\Lsh \\upuparrows \\rightrightarrows \\rightleftarrows \\rightarrowtail \\looparrowright \\,\\!"
+  },
+  {
+    "id": "math.30381.105",
+    "input": "\\curvearrowright \\circlearrowright \\Rsh \\downdownarrows \\leftleftarrows \\leftrightarrows \\leftarrowtail \\looparrowleft \\,\\!",
+    "texvcjs": "\\curvearrowright \\circlearrowright \\Rsh \\downdownarrows \\leftleftarrows \\leftrightarrows \\leftarrowtail \\looparrowleft \\,\\!"
+  },
+  {
+    "id": "math.30381.106",
+    "input": "\\hookrightarrow \\hookleftarrow \\multimap \\leftrightsquigarrow \\rightsquigarrow \\twoheadrightarrow \\twoheadleftarrow \\!",
+    "texvcjs": "\\hookrightarrow \\hookleftarrow \\multimap \\leftrightsquigarrow \\rightsquigarrow \\twoheadrightarrow \\twoheadleftarrow \\!"
+  },
+  {
+    "id": "math.30381.107",
+    "input": "\\amalg \\P \\S \\% \\dagger \\ddagger \\ldots \\cdots \\!",
+    "texvcjs": "\\amalg \\P \\S \\%\\dagger \\ddagger \\ldots \\cdots \\!"
+  },
+  {
+    "id": "math.30381.108",
+    "input": "\\smile \\frown \\wr \\triangleleft \\triangleright\\!",
+    "texvcjs": "\\smile \\frown \\wr \\triangleleft \\triangleright \\!"
+  },
+  {
+    "id": "math.30381.109",
+    "input": "\\diamondsuit, \\heartsuit, \\clubsuit, \\spadesuit, \\Game, \\flat, \\natural, \\sharp \\!",
+    "texvcjs": "\\diamondsuit ,\\heartsuit ,\\clubsuit ,\\spadesuit ,\\Game ,\\flat ,\\natural ,\\sharp \\!"
+  },
+  {
+    "id": "math.30381.110",
+    "input": "\\diagup \\diagdown \\centerdot \\ltimes \\rtimes \\leftthreetimes \\rightthreetimes \\!",
+    "texvcjs": "\\diagup \\diagdown \\centerdot \\ltimes \\rtimes \\leftthreetimes \\rightthreetimes \\!"
+  },
+  {
+    "id": "math.30381.111",
+    "input": "\\eqcirc \\circeq \\triangleq \\bumpeq \\Bumpeq \\doteqdot \\risingdotseq \\fallingdotseq \\!",
+    "texvcjs": "\\eqcirc \\circeq \\triangleq \\bumpeq \\Bumpeq \\doteqdot \\risingdotseq \\fallingdotseq \\!"
+  },
+  {
+    "id": "math.30381.112",
+    "input": "\\intercal \\barwedge \\veebar \\doublebarwedge \\between \\pitchfork \\!",
+    "texvcjs": "\\intercal \\barwedge \\veebar \\doublebarwedge \\between \\pitchfork \\!"
+  },
+  {
+    "id": "math.30381.113",
+    "input": "\\vartriangleleft \\ntriangleleft \\vartriangleright \\ntriangleright \\!",
+    "texvcjs": "\\vartriangleleft \\ntriangleleft \\vartriangleright \\ntriangleright \\!"
+  },
+  {
+    "id": "math.30381.114",
+    "input": "\\trianglelefteq \\ntrianglelefteq \\trianglerighteq \\ntrianglerighteq \\!",
+    "texvcjs": "\\trianglelefteq \\ntrianglelefteq \\trianglerighteq \\ntrianglerighteq \\!"
+  },
+  {
+    "id": "math.30381.115",
+    "input": "a^2",
+    "texvcjs": "a^{2}"
+  },
+  {
+    "id": "math.30381.116",
+    "input": "a_2",
+    "texvcjs": "a_{2}"
+  },
+  {
+    "id": "math.30381.117",
+    "input": "10^{30} a^{2+2}",
+    "texvcjs": "10^{{30}}a^{{2+2}}"
+  },
+  {
+    "id": "math.30381.118",
+    "input": "a_{i,j} b_{f'}",
+    "texvcjs": "a_{{i,j}}b_{{f'}}"
+  },
+  {
+    "id": "math.30381.119",
+    "input": "x_2^3",
+    "texvcjs": "x_{2}^{3}"
+  },
+  {
+    "id": "math.30381.120",
+    "input": "{x_2}^3 \\,\\!",
+    "texvcjs": "{x_{2}}^{3}\\,\\!"
+  },
+  {
+    "id": "math.30381.121",
+    "input": "10^{10^{8}}",
+    "texvcjs": "10^{{10^{{8}}}}"
+  },
+  {
+    "id": "math.30381.122",
+    "input": "\\sideset{_1^2}{_3^4}\\prod_a^b",
+    "texvcjs": "\\sideset {_{1}^{2}}{_{3}^{4}}\\prod _{a}^{b}"
+  },
+  {
+    "id": "math.30381.123",
+    "input": "{}_1^2\\!\\Omega_3^4",
+    "texvcjs": "{}_{1}^{2}\\!\\Omega _{3}^{4}"
+  },
+  {
+    "id": "math.30381.124",
+    "input": "\\overset{\\alpha}{\\omega}",
+    "texvcjs": "{\\overset  {\\alpha }{\\omega }}"
+  },
+  {
+    "id": "math.30381.125",
+    "input": "\\underset{\\alpha}{\\omega}",
+    "texvcjs": "{\\underset  {\\alpha }{\\omega }}"
+  },
+  {
+    "id": "math.30381.126",
+    "input": "\\overset{\\alpha}{\\underset{\\gamma}{\\omega}}",
+    "texvcjs": "{\\overset  {\\alpha }{{\\underset  {\\gamma }{\\omega }}}}"
+  },
+  {
+    "id": "math.30381.127",
+    "input": "\\stackrel{\\alpha}{\\omega}",
+    "texvcjs": "{\\stackrel  {\\alpha }{\\omega }}"
+  },
+  {
+    "id": "math.30381.128",
+    "input": "x', y'', f', f''",
+    "texvcjs": "x',y'',f',f''"
+  },
+  {
+    "id": "math.30381.129",
+    "input": "x^\\prime, y^{\\prime\\prime}",
+    "texvcjs": "x^{\\prime },y^{{\\prime \\prime }}"
+  },
+  {
+    "id": "math.30381.130",
+    "input": "\\dot{x}, \\ddot{x}",
+    "texvcjs": "{\\dot  {x}},{\\ddot  {x}}"
+  },
+  {
+    "id": "math.30381.131",
+    "input": " \\hat a \\ \\bar b \\ \\vec c",
+    "texvcjs": "{\\hat  a}\\ {\\bar  b}\\ {\\vec  c}"
+  },
+  {
+    "id": "math.30381.132",
+    "input": " \\overrightarrow{a b} \\ \\overleftarrow{c d} \\ \\widehat{d e f}",
+    "texvcjs": "\\overrightarrow {ab}\\ \\overleftarrow {cd}\\ \\widehat {def}"
+  },
+  {
+    "id": "math.30381.133",
+    "input": " \\overline{g h i} \\ \\underline{j k l}",
+    "texvcjs": "\\overline {ghi}\\ \\underline {jkl}"
+  },
+  {
+    "id": "math.30381.134",
+    "input": "\\overset{\\frown} {AB}",
+    "texvcjs": "{\\overset  {\\frown }{AB}}"
+  },
+  {
+    "id": "math.30381.135",
+    "input": " A \\xleftarrow{n+\\mu-1} B \\xrightarrow[T]{n\\pm i-1} C",
+    "texvcjs": "A{\\xleftarrow  {n+\\mu -1}}B{\\xrightarrow[ {T}]{n\\pm i-1}}C"
+  },
+  {
+    "id": "math.30381.136",
+    "input": "\\overbrace{ 1+2+\\cdots+100 }^{5050}",
+    "texvcjs": "\\overbrace {1+2+\\cdots +100}^{{5050}}"
+  },
+  {
+    "id": "math.30381.137",
+    "input": "\\underbrace{ a+b+\\cdots+z }_{26}",
+    "texvcjs": "\\underbrace {a+b+\\cdots +z}_{{26}}"
+  },
+  {
+    "id": "math.30381.138",
+    "input": "\\sum_{k=1}^N k^2",
+    "texvcjs": "\\sum _{{k=1}}^{N}k^{2}"
+  },
+  {
+    "id": "math.30381.139",
+    "input": "\\textstyle \\sum_{k=1}^N k^2",
+    "texvcjs": "\\textstyle \\sum _{{k=1}}^{N}k^{2}"
+  },
+  {
+    "id": "math.30381.140",
+    "input": "\\frac{\\sum_{k=1}^N k^2}{a}",
+    "texvcjs": "{\\frac  {\\sum _{{k=1}}^{N}k^{2}}{a}}"
+  },
+  {
+    "id": "math.30381.141",
+    "input": "\\frac{\\displaystyle \\sum_{k=1}^N k^2}{a}",
+    "texvcjs": "{\\frac  {\\displaystyle \\sum _{{k=1}}^{N}k^{2}}{a}}"
+  },
+  {
+    "id": "math.30381.142",
+    "input": "\\frac{\\sum\\limits^{^N}_{k=1} k^2}{a}",
+    "texvcjs": "{\\frac  {\\sum \\limits _{{k=1}}^{{^{N}}}k^{2}}{a}}"
+  },
+  {
+    "id": "math.30381.143",
+    "input": "\\prod_{i=1}^N x_i",
+    "texvcjs": "\\prod _{{i=1}}^{N}x_{i}"
+  },
+  {
+    "id": "math.30381.144",
+    "input": "\\textstyle \\prod_{i=1}^N x_i",
+    "texvcjs": "\\textstyle \\prod _{{i=1}}^{N}x_{i}"
+  },
+  {
+    "id": "math.30381.145",
+    "input": "\\coprod_{i=1}^N x_i",
+    "texvcjs": "\\coprod _{{i=1}}^{N}x_{i}"
+  },
+  {
+    "id": "math.30381.146",
+    "input": "\\textstyle \\coprod_{i=1}^N x_i",
+    "texvcjs": "\\textstyle \\coprod _{{i=1}}^{N}x_{i}"
+  },
+  {
+    "id": "math.30381.147",
+    "input": "\\lim_{n \\to \\infty}x_n",
+    "texvcjs": "\\lim _{{n\\to \\infty }}x_{n}"
+  },
+  {
+    "id": "math.30381.148",
+    "input": "\\textstyle \\lim_{n \\to \\infty}x_n",
+    "texvcjs": "\\textstyle \\lim _{{n\\to \\infty }}x_{n}"
+  },
+  {
+    "id": "math.30381.149",
+    "input": "\\int\\limits_{1}^{3}\\frac{e^3\/x}{x^2}\\, dx",
+    "texvcjs": "\\int \\limits _{{1}}^{{3}}{\\frac  {e^{3}\/x}{x^{2}}}\\,dx"
+  },
+  {
+    "id": "math.30381.150",
+    "input": "\\int_{1}^{3}\\frac{e^3\/x}{x^2}\\, dx",
+    "texvcjs": "\\int _{{1}}^{{3}}{\\frac  {e^{3}\/x}{x^{2}}}\\,dx"
+  },
+  {
+    "id": "math.30381.151",
+    "input": "\\textstyle \\int\\limits_{-N}^{N} e^x\\, dx",
+    "texvcjs": "\\textstyle \\int \\limits _{{-N}}^{{N}}e^{x}\\,dx"
+  },
+  {
+    "id": "math.30381.152",
+    "input": "\\textstyle \\int_{-N}^{N} e^x\\, dx",
+    "texvcjs": "\\textstyle \\int _{{-N}}^{{N}}e^{x}\\,dx"
+  },
+  {
+    "id": "math.30381.153",
+    "input": "\\iint\\limits_D \\, dx\\,dy",
+    "texvcjs": "\\iint \\limits _{D}\\,dx\\,dy"
+  },
+  {
+    "id": "math.30381.154",
+    "input": "\\iiint\\limits_E \\, dx\\,dy\\,dz",
+    "texvcjs": "\\iiint \\limits _{E}\\,dx\\,dy\\,dz"
+  },
+  {
+    "id": "math.30381.155",
+    "input": "\\iiiint\\limits_F \\, dx\\,dy\\,dz\\,dt",
+    "texvcjs": "\\iiiint \\limits _{F}\\,dx\\,dy\\,dz\\,dt"
+  },
+  {
+    "id": "math.30381.156",
+    "input": "\\int_{(x,y)\\in C} x^3\\, dx + 4y^2\\, dy",
+    "texvcjs": "\\int _{{(x,y)\\in C}}x^{3}\\,dx+4y^{2}\\,dy"
+  },
+  {
+    "id": "math.30381.157",
+    "input": "\\oint_{(x,y)\\in C} x^3\\, dx + 4y^2\\, dy",
+    "texvcjs": "\\oint _{{(x,y)\\in C}}x^{3}\\,dx+4y^{2}\\,dy"
+  },
+  {
+    "id": "math.30381.158",
+    "input": "\\bigcap_{i=_1}^n E_i",
+    "texvcjs": "\\bigcap _{{i=_{1}}}^{n}E_{i}"
+  },
+  {
+    "id": "math.30381.159",
+    "input": "\\bigcup_{i=_1}^n E_i",
+    "texvcjs": "\\bigcup _{{i=_{1}}}^{n}E_{i}"
+  },
+  {
+    "id": "math.30381.160",
+    "input": "\\frac{2}{4}=0.5",
+    "texvcjs": "{\\frac  {2}{4}}=0.5"
+  },
+  {
+    "id": "math.30381.161",
+    "input": "\\tfrac{2}{4} = 0.5",
+    "texvcjs": "{\\tfrac  {2}{4}}=0.5"
+  },
+  {
+    "id": "math.30381.162",
+    "input": "\\dfrac{2}{4} = 0.5 \\qquad \\dfrac{2}{c + \\dfrac{2}{d + \\dfrac{2}{4}}} = a",
+    "texvcjs": "{\\dfrac  {2}{4}}=0.5\\qquad {\\dfrac  {2}{c+{\\dfrac  {2}{d+{\\dfrac  {2}{4}}}}}}=a"
+  },
+  {
+    "id": "math.30381.163",
+    "input": "\\cfrac{2}{c + \\cfrac{2}{d + \\cfrac{2}{4}}} = a",
+    "texvcjs": "{\\cfrac  {2}{c+{\\cfrac  {2}{d+{\\cfrac  {2}{4}}}}}}=a"
+  },
+  {
+    "id": "math.30381.164",
+    "input": "\\cfrac{x}{1 + \\cfrac{\\cancel{y}}{\\cancel{y}}} = \\cfrac{x}{2}",
+    "texvcjs": "{\\cfrac  {x}{1+{\\cfrac  {{\\cancel  {y}}}{{\\cancel  {y}}}}}}={\\cfrac  {x}{2}}"
+  },
+  {
+    "id": "math.30381.165",
+    "input": "\\binom{n}{k}",
+    "texvcjs": "{\\binom  {n}{k}}"
+  },
+  {
+    "id": "math.30381.166",
+    "input": "\\tbinom{n}{k}",
+    "texvcjs": "{\\tbinom  {n}{k}}"
+  },
+  {
+    "id": "math.30381.167",
+    "input": "\\dbinom{n}{k}",
+    "texvcjs": "{\\dbinom  {n}{k}}"
+  },
+  {
+    "id": "math.30381.168",
+    "input": "\\begin{matrix}\nx & y \\\\\nz & v\n\\end{matrix}",
+    "texvcjs": "{\\begin{matrix}x&y\\\\z&v\\end{matrix}}"
+  },
+  {
+    "id": "math.30381.169",
+    "input": "\\begin{vmatrix}\nx & y \\\\\nz & v\n\\end{vmatrix}",
+    "texvcjs": "{\\begin{vmatrix}x&y\\\\z&v\\end{vmatrix}}"
+  },
+  {
+    "id": "math.30381.170",
+    "input": "\\begin{Vmatrix}\nx & y \\\\\nz & v\n\\end{Vmatrix}",
+    "texvcjs": "{\\begin{Vmatrix}x&y\\\\z&v\\end{Vmatrix}}"
+  },
+  {
+    "id": "math.30381.171",
+    "input": "\\begin{bmatrix}\n0 & \\cdots & 0 \\\\\n\\vdots & \\ddots & \\vdots \\\\\n0 & \\cdots & 0\n\\end{bmatrix} ",
+    "texvcjs": "{\\begin{bmatrix}0&\\cdots &0\\\\\\vdots &\\ddots &\\vdots \\\\0&\\cdots &0\\end{bmatrix}}"
+  },
+  {
+    "id": "math.30381.172",
+    "input": "\\begin{Bmatrix}\nx & y \\\\\nz & v\n\\end{Bmatrix}",
+    "texvcjs": "{\\begin{Bmatrix}x&y\\\\z&v\\end{Bmatrix}}"
+  },
+  {
+    "id": "math.30381.173",
+    "input": "\\begin{pmatrix}\nx & y \\\\\nz & v\n\\end{pmatrix}",
+    "texvcjs": "{\\begin{pmatrix}x&y\\\\z&v\\end{pmatrix}}"
+  },
+  {
+    "id": "math.30381.174",
+    "input": "\n\\bigl( \\begin{smallmatrix}\na&b\\\\ c&d\n\\end{smallmatrix} \\bigr)\n",
+    "texvcjs": "{\\bigl (}{\\begin{smallmatrix}a&b\\\\c&d\\end{smallmatrix}}{\\bigr )}"
+  },
+  {
+    "id": "math.30381.175",
+    "input": "f(n) =\n\\begin{cases}\nn\/2, & \\text{if }n\\text{ is even} \\\\\n3n+1, & \\text{if }n\\text{ is odd}\n\\end{cases}",
+    "texvcjs": "f(n)={\\begin{cases}n\/2,&{\\text{if }}n{\\text{ is even}}\\\\3n+1,&{\\text{if }}n{\\text{ is odd}}\\end{cases}}"
+  },
+  {
+    "id": "math.30381.176",
+    "input": "\n\\begin{align}\nf(x) & = (a+b)^2 \\\\\n& = a^2+2ab+b^2 \\\\\n\\end{align}\n",
+    "texvcjs": "{\\begin{aligned}f(x)&=(a+b)^{2}\\\\&=a^{2}+2ab+b^{2}\\\\\\end{aligned}}"
+  },
+  {
+    "id": "math.30381.177",
+    "input": "\n\\begin{alignat}{2}\nf(x) & = (a-b)^2 \\\\\n& = a^2-2ab+b^2 \\\\\n\\end{alignat}\n",
+    "texvcjs": "{\\begin{alignedat}{2}f(x)&=(a-b)^{2}\\\\&=a^{2}-2ab+b^{2}\\\\\\end{alignedat}}"
+  },
+  {
+    "id": "math.30381.178",
+    "input": "\\begin{array}{lcl}\nz & = & a \\\\\nf(x,y,z) & = & x + y + z\n\\end{array}",
+    "texvcjs": "{\\begin{array}{lcl}z&=&a\\\\f(x,y,z)&=&x+y+z\\end{array}}"
+  },
+  {
+    "id": "math.30381.179",
+    "input": "\\begin{array}{lcr}\nz & = & a \\\\\nf(x,y,z) & = & x + y + z\n\\end{array}",
+    "texvcjs": "{\\begin{array}{lcr}z&=&a\\\\f(x,y,z)&=&x+y+z\\end{array}}"
+  },
+  {
+    "id": "math.30381.180",
+    "input": "f(x) =\n\\sum_{n=0}^\\infty a_n x^n =\na_0 +a_1x+a_2x^2+\\cdots",
+    "texvcjs": "f(x)=\\sum _{{n=0}}^{\\infty }a_{n}x^{n}=a_{0}+a_{1}x+a_{2}x^{2}+\\cdots "
+  },
+  {
+    "id": "math.30381.181",
+    "input": "\\begin{cases}\n3x + 5y + z \\\\\n7x - 2y + 4z \\\\\n-6x + 3y + 2z\n\\end{cases}",
+    "texvcjs": "{\\begin{cases}3x+5y+z\\\\7x-2y+4z\\\\-6x+3y+2z\\end{cases}}"
+  },
+  {
+    "id": "math.30381.182",
+    "input": "\n\\begin{array}{|c|c||c|} a & b & S \\\\\n\\hline\n0&0&1\\\\\n0&1&1\\\\\n1&0&1\\\\\n1&1&0\\\\\n\\end{array}\n",
+    "texvcjs": "{\\begin{array}{|c|c||c|}a&b&S\\\\\\hline 0&0&1\\\\0&1&1\\\\1&0&1\\\\1&1&0\\\\\\end{array}}"
+  },
+  {
+    "id": "math.30381.183",
+    "input": "( \\frac{1}{2} )",
+    "texvcjs": "({\\frac  {1}{2}})"
+  },
+  {
+    "id": "math.30381.184",
+    "input": "\\left ( \\frac{1}{2} \\right )",
+    "texvcjs": "\\left({\\frac  {1}{2}}\\right)"
+  },
+  {
+    "id": "math.30381.185",
+    "input": "\\left ( \\frac{a}{b} \\right )",
+    "texvcjs": "\\left({\\frac  {a}{b}}\\right)"
+  },
+  {
+    "id": "math.30381.186",
+    "input": "\\left [ \\frac{a}{b} \\right ] \\quad \\left \\lbrack \\frac{a}{b} \\right \\rbrack",
+    "texvcjs": "\\left[{\\frac  {a}{b}}\\right]\\quad \\left\\lbrack {\\frac  {a}{b}}\\right\\rbrack "
+  },
+  {
+    "id": "math.30381.187",
+    "input": "\\left \\{ \\frac{a}{b} \\right \\} \\quad \\left \\lbrace \\frac{a}{b} \\right \\rbrace",
+    "texvcjs": "\\left\\{{\\frac  {a}{b}}\\right\\}\\quad \\left\\lbrace {\\frac  {a}{b}}\\right\\rbrace "
+  },
+  {
+    "id": "math.30381.188",
+    "input": "\\left \\langle \\frac{a}{b} \\right \\rangle",
+    "texvcjs": "\\left\\langle {\\frac  {a}{b}}\\right\\rangle "
+  },
+  {
+    "id": "math.30381.189",
+    "input": "\\left | \\frac{a}{b} \\right \\vert \\quad \\left \\Vert \\frac{c}{d} \\right \\|",
+    "texvcjs": "\\left|{\\frac  {a}{b}}\\right\\vert \\quad \\left\\Vert {\\frac  {c}{d}}\\right\\|"
+  },
+  {
+    "id": "math.30381.190",
+    "input": "\\left \\lfloor \\frac{a}{b} \\right \\rfloor \\quad \\left \\lceil \\frac{c}{d} \\right \\rceil",
+    "texvcjs": "\\left\\lfloor {\\frac  {a}{b}}\\right\\rfloor \\quad \\left\\lceil {\\frac  {c}{d}}\\right\\rceil "
+  },
+  {
+    "id": "math.30381.191",
+    "input": "\\left \/ \\frac{a}{b} \\right \\backslash",
+    "texvcjs": "\\left\/{\\frac  {a}{b}}\\right\\backslash "
+  },
+  {
+    "id": "math.30381.192",
+    "input": "\\left \\uparrow \\frac{a}{b} \\right \\downarrow \\quad \\left \\Uparrow \\frac{a}{b} \\right \\Downarrow \\quad \\left \\updownarrow \\frac{a}{b} \\right \\Updownarrow",
+    "texvcjs": "\\left\\uparrow {\\frac  {a}{b}}\\right\\downarrow \\quad \\left\\Uparrow {\\frac  {a}{b}}\\right\\Downarrow \\quad \\left\\updownarrow {\\frac  {a}{b}}\\right\\Updownarrow "
+  },
+  {
+    "id": "math.30381.193",
+    "input": "\\left [ 0,1 \\right )",
+    "texvcjs": "\\left[0,1\\right)"
+  },
+  {
+    "id": "math.30381.194",
+    "input": "\\left \\langle \\psi \\right |",
+    "texvcjs": "\\left\\langle \\psi \\right|"
+  },
+  {
+    "id": "math.30381.195",
+    "input": "\\left . \\frac{A}{B} \\right \\} \\to X",
+    "texvcjs": "\\left.{\\frac  {A}{B}}\\right\\}\\to X"
+  },
+  {
+    "id": "math.30381.196",
+    "input": "( \\bigl( \\Bigl( \\biggl( \\Biggl( \\dots \\Biggr] \\biggr] \\Bigr] \\bigr] ]",
+    "texvcjs": "({\\bigl (}{\\Bigl (}{\\biggl (}{\\Biggl (}\\dots {\\Biggr ]}{\\biggr ]}{\\Bigr ]}{\\bigr ]}]"
+  },
+  {
+    "id": "math.30381.197",
+    "input": "\\{ \\bigl\\{ \\Bigl\\{ \\biggl\\{ \\Biggl\\{ \\dots \\Biggr\\rangle \\biggr\\rangle \\Bigr\\rangle \\bigr\\rangle \\rangle",
+    "texvcjs": "\\{{\\bigl \\{}{\\Bigl \\{}{\\biggl \\{}{\\Biggl \\{}\\dots {\\Biggr \\rangle }{\\biggr \\rangle }{\\Bigr \\rangle }{\\bigr \\rangle }\\rangle "
+  },
+  {
+    "id": "math.30381.198",
+    "input": "\\| \\big\\| \\Big\\| \\bigg\\| \\Bigg\\| \\dots \\Bigg| \\bigg| \\Big| \\big| |",
+    "texvcjs": "\\|{\\big \\|}{\\Big \\|}{\\bigg \\|}{\\Bigg \\|}\\dots {\\Bigg |}{\\bigg |}{\\Big |}{\\big |}|"
+  },
+  {
+    "id": "math.30381.199",
+    "input": "\\lfloor \\bigl\\lfloor \\Bigl\\lfloor \\biggl\\lfloor \\Biggl\\lfloor \\dots \\Biggr\\rceil \\biggr\\rceil \\Bigr\\rceil \\bigr\\rceil \\rceil",
+    "texvcjs": "\\lfloor {\\bigl \\lfloor }{\\Bigl \\lfloor }{\\biggl \\lfloor }{\\Biggl \\lfloor }\\dots {\\Biggr \\rceil }{\\biggr \\rceil }{\\Bigr \\rceil }{\\bigr \\rceil }\\rceil "
+  },
+  {
+    "id": "math.30381.200",
+    "input": "\\uparrow \\big\\uparrow \\Big\\uparrow \\bigg\\uparrow \\Bigg\\uparrow \\dots \\Bigg\\Downarrow \\bigg\\Downarrow \\Big\\Downarrow \\big\\Downarrow \\Downarrow",
+    "texvcjs": "\\uparrow {\\big \\uparrow }{\\Big \\uparrow }{\\bigg \\uparrow }{\\Bigg \\uparrow }\\dots {\\Bigg \\Downarrow }{\\bigg \\Downarrow }{\\Big \\Downarrow }{\\big \\Downarrow }\\Downarrow "
+  },
+  {
+    "id": "math.30381.201",
+    "input": "\\updownarrow \\big\\updownarrow \\Big\\updownarrow \\bigg\\updownarrow \\Bigg\\updownarrow \\dots \\Bigg\\Updownarrow \\bigg\\Updownarrow \\Big\\Updownarrow \\big\\Updownarrow \\Updownarrow",
+    "texvcjs": "\\updownarrow {\\big \\updownarrow }{\\Big \\updownarrow }{\\bigg \\updownarrow }{\\Bigg \\updownarrow }\\dots {\\Bigg \\Updownarrow }{\\bigg \\Updownarrow }{\\Big \\Updownarrow }{\\big \\Updownarrow }\\Updownarrow "
+  },
+  {
+    "id": "math.30381.202",
+    "input": "\/ \\big\/ \\Big\/ \\bigg\/ \\Bigg\/ \\dots \\Bigg\\backslash \\bigg\\backslash \\Big\\backslash \\big\\backslash \\backslash",
+    "texvcjs": "\/{\\big \/}{\\Big \/}{\\bigg \/}{\\Bigg \/}\\dots {\\Bigg \\backslash }{\\bigg \\backslash }{\\Big \\backslash }{\\big \\backslash }\\backslash "
+  },
+  {
+    "id": "math.30381.203",
+    "input": "x^2 + y^2 + z^2 = 1 \\,",
+    "texvcjs": "x^{2}+y^{2}+z^{2}=1\\,"
+  },
+  {
+    "id": "math.30381.204",
+    "input": "\\Alpha \\Beta \\Gamma \\Delta \\Epsilon \\Zeta \\Eta \\Theta \\!",
+    "texvcjs": "\\mathrm{A} \\mathrm{B} \\Gamma \\Delta \\mathrm{E} \\mathrm{Z} \\mathrm{H} \\Theta \\!"
+  },
+  {
+    "id": "math.30381.205",
+    "input": "\\Iota \\Kappa \\Lambda \\Mu \\Nu \\Xi \\Pi \\Rho \\!",
+    "texvcjs": "\\mathrm{I} \\mathrm{K} \\Lambda \\mathrm{M} \\mathrm{N} \\Xi \\Pi \\mathrm{P} \\!"
+  },
+  {
+    "id": "math.30381.206",
+    "input": "\\Sigma \\Tau \\Upsilon \\Phi \\Chi \\Psi \\Omega \\!",
+    "texvcjs": "\\Sigma \\mathrm{T} \\Upsilon \\Phi \\mathrm{X} \\Psi \\Omega \\!"
+  },
+  {
+    "id": "math.30381.207",
+    "input": "\\alpha \\beta \\gamma \\delta \\epsilon \\zeta \\eta \\theta \\!",
+    "texvcjs": "\\alpha \\beta \\gamma \\delta \\epsilon \\zeta \\eta \\theta \\!"
+  },
+  {
+    "id": "math.30381.208",
+    "input": "\\iota \\kappa \\lambda \\mu \\nu \\xi \\pi \\rho \\!",
+    "texvcjs": "\\iota \\kappa \\lambda \\mu \\nu \\xi \\pi \\rho \\!"
+  },
+  {
+    "id": "math.30381.209",
+    "input": "\\sigma \\tau \\upsilon \\phi \\chi \\psi \\omega \\!",
+    "texvcjs": "\\sigma \\tau \\upsilon \\phi \\chi \\psi \\omega \\!"
+  },
+  {
+    "id": "math.30381.210",
+    "input": "\\varepsilon \\digamma \\varkappa \\varpi \\!",
+    "texvcjs": "\\varepsilon \\digamma \\varkappa \\varpi \\!"
+  },
+  {
+    "id": "math.30381.211",
+    "input": "\\varrho \\varsigma \\vartheta \\varphi \\!",
+    "texvcjs": "\\varrho \\varsigma \\vartheta \\varphi \\!"
+  },
+  {
+    "id": "math.30381.212",
+    "input": "\\aleph \\beth \\gimel \\daleth \\!",
+    "texvcjs": "\\aleph \\beth \\gimel \\daleth \\!"
+  },
+  {
+    "id": "math.30381.213",
+    "input": "\\mathbb{ABCDEFGHI} \\!",
+    "texvcjs": "{\\mathbb  {ABCDEFGHI}}\\!"
+  },
+  {
+    "id": "math.30381.214",
+    "input": "\\mathbb{JKLMNOPQR} \\!",
+    "texvcjs": "{\\mathbb  {JKLMNOPQR}}\\!"
+  },
+  {
+    "id": "math.30381.215",
+    "input": "\\mathbb{STUVWXYZ} \\!",
+    "texvcjs": "{\\mathbb  {STUVWXYZ}}\\!"
+  },
+  {
+    "id": "math.30381.216",
+    "input": "\\mathbf{ABCDEFGHI} \\!",
+    "texvcjs": "{\\mathbf  {ABCDEFGHI}}\\!"
+  },
+  {
+    "id": "math.30381.217",
+    "input": "\\mathbf{JKLMNOPQR} \\!",
+    "texvcjs": "{\\mathbf  {JKLMNOPQR}}\\!"
+  },
+  {
+    "id": "math.30381.218",
+    "input": "\\mathbf{STUVWXYZ} \\!",
+    "texvcjs": "{\\mathbf  {STUVWXYZ}}\\!"
+  },
+  {
+    "id": "math.30381.219",
+    "input": "\\mathbf{abcdefghijklm} \\!",
+    "texvcjs": "{\\mathbf  {abcdefghijklm}}\\!"
+  },
+  {
+    "id": "math.30381.220",
+    "input": "\\mathbf{nopqrstuvwxyz} \\!",
+    "texvcjs": "{\\mathbf  {nopqrstuvwxyz}}\\!"
+  },
+  {
+    "id": "math.30381.221",
+    "input": "\\mathbf{0123456789} \\!",
+    "texvcjs": "{\\mathbf  {0123456789}}\\!"
+  },
+  {
+    "id": "math.30381.222",
+    "input": "\\boldsymbol{\\Alpha\\Beta\\Gamma\\Delta\\Epsilon\\Zeta\\Eta\\Theta} \\!",
+    "texvcjs": "{\\boldsymbol  {\\mathrm{A} \\mathrm{B} \\Gamma \\Delta \\mathrm{E} \\mathrm{Z} \\mathrm{H} \\Theta }}\\!"
+  },
+  {
+    "id": "math.30381.223",
+    "input": "\\boldsymbol{\\Iota\\Kappa\\Lambda\\Mu\\Nu\\Xi\\Pi\\Rho} \\!",
+    "texvcjs": "{\\boldsymbol  {\\mathrm{I} \\mathrm{K} \\Lambda \\mathrm{M} \\mathrm{N} \\Xi \\Pi \\mathrm{P} }}\\!"
+  },
+  {
+    "id": "math.30381.224",
+    "input": "\\boldsymbol{\\Sigma\\Tau\\Upsilon\\Phi\\Chi\\Psi\\Omega} \\!",
+    "texvcjs": "{\\boldsymbol  {\\Sigma \\mathrm{T} \\Upsilon \\Phi \\mathrm{X} \\Psi \\Omega }}\\!"
+  },
+  {
+    "id": "math.30381.225",
+    "input": "\\boldsymbol{\\alpha\\beta\\gamma\\delta\\epsilon\\zeta\\eta\\theta} \\!",
+    "texvcjs": "{\\boldsymbol  {\\alpha \\beta \\gamma \\delta \\epsilon \\zeta \\eta \\theta }}\\!"
+  },
+  {
+    "id": "math.30381.226",
+    "input": "\\boldsymbol{\\iota\\kappa\\lambda\\mu\\nu\\xi\\pi\\rho} \\!",
+    "texvcjs": "{\\boldsymbol  {\\iota \\kappa \\lambda \\mu \\nu \\xi \\pi \\rho }}\\!"
+  },
+  {
+    "id": "math.30381.227",
+    "input": "\\boldsymbol{\\sigma\\tau\\upsilon\\phi\\chi\\psi\\omega} \\!",
+    "texvcjs": "{\\boldsymbol  {\\sigma \\tau \\upsilon \\phi \\chi \\psi \\omega }}\\!"
+  },
+  {
+    "id": "math.30381.228",
+    "input": "\\boldsymbol{\\varepsilon\\digamma\\varkappa\\varpi} \\!",
+    "texvcjs": "{\\boldsymbol  {\\varepsilon \\digamma \\varkappa \\varpi }}\\!"
+  },
+  {
+    "id": "math.30381.229",
+    "input": "\\boldsymbol{\\varrho\\varsigma\\vartheta\\varphi} \\!",
+    "texvcjs": "{\\boldsymbol  {\\varrho \\varsigma \\vartheta \\varphi }}\\!"
+  },
+  {
+    "id": "math.30381.230",
+    "input": "\\mathit{0123456789} \\!",
+    "texvcjs": "{\\mathit  {0123456789}}\\!"
+  },
+  {
+    "id": "math.30381.231",
+    "input": "\\mathit{\\Alpha\\Beta\\Gamma\\Delta\\Epsilon\\Zeta\\Eta\\Theta} \\!",
+    "texvcjs": "{\\mathit  {\\mathrm{A} \\mathrm{B} \\Gamma \\Delta \\mathrm{E} \\mathrm{Z} \\mathrm{H} \\Theta }}\\!"
+  },
+  {
+    "id": "math.30381.232",
+    "input": "\\mathit{\\Iota\\Kappa\\Lambda\\Mu\\Nu\\Xi\\Pi\\Rho} \\!",
+    "texvcjs": "{\\mathit  {\\mathrm{I} \\mathrm{K} \\Lambda \\mathrm{M} \\mathrm{N} \\Xi \\Pi \\mathrm{P} }}\\!"
+  },
+  {
+    "id": "math.30381.233",
+    "input": "\\mathit{\\Sigma\\Tau\\Upsilon\\Phi\\Chi\\Psi\\Omega} \\!",
+    "texvcjs": "{\\mathit  {\\Sigma \\mathrm{T} \\Upsilon \\Phi \\mathrm{X} \\Psi \\Omega }}\\!"
+  },
+  {
+    "id": "math.30381.234",
+    "input": "\\mathrm{ABCDEFGHI} \\!",
+    "texvcjs": "{\\mathrm  {ABCDEFGHI}}\\!"
+  },
+  {
+    "id": "math.30381.235",
+    "input": "\\mathrm{JKLMNOPQR} \\!",
+    "texvcjs": "{\\mathrm  {JKLMNOPQR}}\\!"
+  },
+  {
+    "id": "math.30381.236",
+    "input": "\\mathrm{STUVWXYZ} \\!",
+    "texvcjs": "{\\mathrm  {STUVWXYZ}}\\!"
+  },
+  {
+    "id": "math.30381.237",
+    "input": "\\mathrm{abcdefghijklm} \\!",
+    "texvcjs": "{\\mathrm  {abcdefghijklm}}\\!"
+  },
+  {
+    "id": "math.30381.238",
+    "input": "\\mathrm{nopqrstuvwxyz} \\!",
+    "texvcjs": "{\\mathrm  {nopqrstuvwxyz}}\\!"
+  },
+  {
+    "id": "math.30381.239",
+    "input": "\\mathrm{0123456789} \\!",
+    "texvcjs": "{\\mathrm  {0123456789}}\\!"
+  },
+  {
+    "id": "math.30381.240",
+    "input": "\\mathsf{ABCDEFGHI} \\!",
+    "texvcjs": "{\\mathsf  {ABCDEFGHI}}\\!"
+  },
+  {
+    "id": "math.30381.241",
+    "input": "\\mathsf{JKLMNOPQR} \\!",
+    "texvcjs": "{\\mathsf  {JKLMNOPQR}}\\!"
+  },
+  {
+    "id": "math.30381.242",
+    "input": "\\mathsf{STUVWXYZ} \\!",
+    "texvcjs": "{\\mathsf  {STUVWXYZ}}\\!"
+  },
+  {
+    "id": "math.30381.243",
+    "input": "\\mathsf{abcdefghijklm} \\!",
+    "texvcjs": "{\\mathsf  {abcdefghijklm}}\\!"
+  },
+  {
+    "id": "math.30381.244",
+    "input": "\\mathsf{nopqrstuvwxyz} \\!",
+    "texvcjs": "{\\mathsf  {nopqrstuvwxyz}}\\!"
+  },
+  {
+    "id": "math.30381.245",
+    "input": "\\mathsf{0123456789} \\!",
+    "texvcjs": "{\\mathsf  {0123456789}}\\!"
+  },
+  {
+    "id": "math.30381.246",
+    "input": "\\mathsf{\\Alpha \\Beta \\Gamma \\Delta \\Epsilon \\Zeta \\Eta \\Theta} \\!",
+    "texvcjs": "{\\mathsf  {\\mathrm{A} \\mathrm{B} \\Gamma \\Delta \\mathrm{E} \\mathrm{Z} \\mathrm{H} \\Theta }}\\!"
+  },
+  {
+    "id": "math.30381.247",
+    "input": "\\mathsf{\\Iota \\Kappa \\Lambda \\Mu \\Nu \\Xi \\Pi \\Rho} \\!",
+    "texvcjs": "{\\mathsf  {\\mathrm{I} \\mathrm{K} \\Lambda \\mathrm{M} \\mathrm{N} \\Xi \\Pi \\mathrm{P} }}\\!"
+  },
+  {
+    "id": "math.30381.248",
+    "input": "\\mathsf{\\Sigma \\Tau \\Upsilon \\Phi \\Chi \\Psi \\Omega}\\!",
+    "texvcjs": "{\\mathsf  {\\Sigma \\mathrm{T} \\Upsilon \\Phi \\mathrm{X} \\Psi \\Omega }}\\!"
+  },
+  {
+    "id": "math.30381.249",
+    "input": "\\mathcal{ABCDEFGHI} \\!",
+    "texvcjs": "{\\mathcal  {ABCDEFGHI}}\\!"
+  },
+  {
+    "id": "math.30381.250",
+    "input": "\\mathcal{JKLMNOPQR} \\!",
+    "texvcjs": "{\\mathcal  {JKLMNOPQR}}\\!"
+  },
+  {
+    "id": "math.30381.251",
+    "input": "\\mathcal{STUVWXYZ} \\!",
+    "texvcjs": "{\\mathcal  {STUVWXYZ}}\\!"
+  },
+  {
+    "id": "math.30381.252",
+    "input": "\\mathfrak{ABCDEFGHI} \\!",
+    "texvcjs": "{\\mathfrak  {ABCDEFGHI}}\\!"
+  },
+  {
+    "id": "math.30381.253",
+    "input": "\\mathfrak{JKLMNOPQR} \\!",
+    "texvcjs": "{\\mathfrak  {JKLMNOPQR}}\\!"
+  },
+  {
+    "id": "math.30381.254",
+    "input": "\\mathfrak{STUVWXYZ} \\!",
+    "texvcjs": "{\\mathfrak  {STUVWXYZ}}\\!"
+  },
+  {
+    "id": "math.30381.255",
+    "input": "\\mathfrak{abcdefghijklm} \\!",
+    "texvcjs": "{\\mathfrak  {abcdefghijklm}}\\!"
+  },
+  {
+    "id": "math.30381.256",
+    "input": "\\mathfrak{nopqrstuvwxyz} \\!",
+    "texvcjs": "{\\mathfrak  {nopqrstuvwxyz}}\\!"
+  },
+  {
+    "id": "math.30381.257",
+    "input": "\\mathfrak{0123456789} \\!",
+    "texvcjs": "{\\mathfrak  {0123456789}}\\!"
+  },
+  {
+    "id": "math.30381.258",
+    "input": "{\\scriptstyle\\text{abcdefghijklm}}",
+    "texvcjs": "{\\scriptstyle {\\text{abcdefghijklm}}}"
+  },
+  {
+    "id": "math.30381.259",
+    "input": "x y z",
+    "texvcjs": "xyz"
+  },
+  {
+    "id": "math.30381.260",
+    "input": "\\text{x y z}",
+    "texvcjs": "{\\text{x y z}}"
+  },
+  {
+    "id": "math.30381.261",
+    "input": "\\text{if} n \\text{is even}",
+    "texvcjs": "{\\text{if}}n{\\text{is even}}"
+  },
+  {
+    "id": "math.30381.262",
+    "input": "\\text{if }n\\text{ is even}",
+    "texvcjs": "{\\text{if }}n{\\text{ is even}}"
+  },
+  {
+    "id": "math.30381.263",
+    "input": "\\text{if}~n\\ \\text{is even}",
+    "texvcjs": "{\\text{if}}~n\\ {\\text{is even}}"
+  },
+  {
+    "id": "math.30381.264",
+    "input": "{\\color{Blue}{x^2}}+{\\color{Orange}{2x}}-{\\color{LimeGreen}{1}}",
+    "texvcjs": "{\\color {Blue}{x^{2}}}+{\\color {Orange}{2x}}-{\\color {LimeGreen}{1}}"
+  },
+  {
+    "id": "math.30381.265",
+    "input": "x_{1,2}=\\frac{{\\color{Blue}{-b}}\\pm\\sqrt{\\color{Red}{b^2-4ac}}}{\\color{Green}{2a}}",
+    "texvcjs": "x_{{1,2}}={\\frac  {{\\color {Blue}{-b}}\\pm {\\sqrt  {\\color {Red}{b^{2}-4ac}}}}{\\color {Green}{2a}}}"
+  },
+  {
+    "id": "math.30381.266",
+    "input": "{\\color{Blue}x^2}+{\\color{Orange}2x}-{\\color{LimeGreen}1}",
+    "texvcjs": "{\\color {Blue}x^{2}}+{\\color {Orange}2x}-{\\color {LimeGreen}1}"
+  },
+  {
+    "id": "math.30381.267",
+    "input": "\\color{Blue}x^2\\color{Black}+\\color{Orange}2x\\color{Black}-\\color{LimeGreen}1",
+    "texvcjs": "\\color {Blue}x^{2}\\color {Black}+\\color {Orange}2x\\color {Black}-\\color {LimeGreen}1"
+  },
+  {
+    "id": "math.30381.268",
+    "input": "\\color{Blue}{x^2}+\\color{Orange}{2x}-\\color{LimeGreen}{1}",
+    "texvcjs": "\\color {Blue}{x^{2}}+\\color {Orange}{2x}-\\color {LimeGreen}{1}"
+  },
+  {
+    "id": "math.30381.269",
+    "input": "\\color{Apricot}{\\text{Apricot}}",
+    "texvcjs": "\\color {Apricot}{{\\text{Apricot}}}"
+  },
+  {
+    "id": "math.30381.270",
+    "input": "\\pagecolor{Gray}\\color{Aquamarine}{\\text{Aquamarine}}",
+    "texvcjs": "\\pagecolor {Gray}\\color {Aquamarine}{{\\text{Aquamarine}}}"
+  },
+  {
+    "id": "math.30381.271",
+    "input": "\\color{Bittersweet}{\\text{Bittersweet}}",
+    "texvcjs": "\\color {Bittersweet}{{\\text{Bittersweet}}}"
+  },
+  {
+    "id": "math.30381.272",
+    "input": "\\color{Black}{\\text{Black}}",
+    "texvcjs": "\\color {Black}{{\\text{Black}}}"
+  },
+  {
+    "id": "math.30381.273",
+    "input": "\\color{Blue}{\\text{Blue}}",
+    "texvcjs": "\\color {Blue}{{\\text{Blue}}}"
+  },
+  {
+    "id": "math.30381.274",
+    "input": "\\color{BlueGreen}{\\text{BlueGreen}}",
+    "texvcjs": "\\color {BlueGreen}{{\\text{BlueGreen}}}"
+  },
+  {
+    "id": "math.30381.275",
+    "input": "\\color{BlueViolet}{\\text{BlueViolet}}",
+    "texvcjs": "\\color {BlueViolet}{{\\text{BlueViolet}}}"
+  },
+  {
+    "id": "math.30381.276",
+    "input": "\\color{BrickRed}{\\text{BrickRed}}",
+    "texvcjs": "\\color {BrickRed}{{\\text{BrickRed}}}"
+  },
+  {
+    "id": "math.30381.277",
+    "input": "\\color{Brown}{\\text{Brown}}",
+    "texvcjs": "\\color {Brown}{{\\text{Brown}}}"
+  },
+  {
+    "id": "math.30381.278",
+    "input": "\\color{BurntOrange}{\\text{BurntOrange}}",
+    "texvcjs": "\\color {BurntOrange}{{\\text{BurntOrange}}}"
+  },
+  {
+    "id": "math.30381.279",
+    "input": "\\color{CadetBlue}{\\text{CadetBlue}}",
+    "texvcjs": "\\color {CadetBlue}{{\\text{CadetBlue}}}"
+  },
+  {
+    "id": "math.30381.280",
+    "input": "\\color{CarnationPink}{\\text{CarnationPink}}",
+    "texvcjs": "\\color {CarnationPink}{{\\text{CarnationPink}}}"
+  },
+  {
+    "id": "math.30381.281",
+    "input": "\\color{Cerulean}{\\text{Cerulean}}",
+    "texvcjs": "\\color {Cerulean}{{\\text{Cerulean}}}"
+  },
+  {
+    "id": "math.30381.282",
+    "input": "\\color{CornflowerBlue}{\\text{CornflowerBlue}}",
+    "texvcjs": "\\color {CornflowerBlue}{{\\text{CornflowerBlue}}}"
+  },
+  {
+    "id": "math.30381.283",
+    "input": "\\pagecolor{Gray}\\color{Cyan}{\\text{Cyan}}",
+    "texvcjs": "\\pagecolor {Gray}\\color {Cyan}{{\\text{Cyan}}}"
+  },
+  {
+    "id": "math.30381.284",
+    "input": "\\color{Dandelion}{\\text{Dandelion}}",
+    "texvcjs": "\\color {Dandelion}{{\\text{Dandelion}}}"
+  },
+  {
+    "id": "math.30381.285",
+    "input": "\\color{DarkOrchid}{\\text{DarkOrchid}}",
+    "texvcjs": "\\color {DarkOrchid}{{\\text{DarkOrchid}}}"
+  },
+  {
+    "id": "math.30381.286",
+    "input": "\\color{Emerald}{\\text{Emerald}}",
+    "texvcjs": "\\color {Emerald}{{\\text{Emerald}}}"
+  },
+  {
+    "id": "math.30381.287",
+    "input": "\\color{ForestGreen}{\\text{ForestGreen}}",
+    "texvcjs": "\\color {ForestGreen}{{\\text{ForestGreen}}}"
+  },
+  {
+    "id": "math.30381.288",
+    "input": "\\color{Fuchsia}{\\text{Fuchsia}}",
+    "texvcjs": "\\color {Fuchsia}{{\\text{Fuchsia}}}"
+  },
+  {
+    "id": "math.30381.289",
+    "input": "\\color{Goldenrod}{\\text{Goldenrod}}",
+    "texvcjs": "\\color {Goldenrod}{{\\text{Goldenrod}}}"
+  },
+  {
+    "id": "math.30381.290",
+    "input": "\\color{Gray}{\\text{Gray}}",
+    "texvcjs": "\\color {Gray}{{\\text{Gray}}}"
+  },
+  {
+    "id": "math.30381.291",
+    "input": "\\color{Green}{\\text{Green}}",
+    "texvcjs": "\\color {Green}{{\\text{Green}}}"
+  },
+  {
+    "id": "math.30381.292",
+    "input": "\\pagecolor{Gray}\\color{GreenYellow}{\\text{GreenYellow}}",
+    "texvcjs": "\\pagecolor {Gray}\\color {GreenYellow}{{\\text{GreenYellow}}}"
+  },
+  {
+    "id": "math.30381.293",
+    "input": "\\color{JungleGreen}{\\text{JungleGreen}}",
+    "texvcjs": "\\color {JungleGreen}{{\\text{JungleGreen}}}"
+  },
+  {
+    "id": "math.30381.294",
+    "input": "\\pagecolor{Gray}\\color{Lavender}{\\text{Lavender}}",
+    "texvcjs": "\\pagecolor {Gray}\\color {Lavender}{{\\text{Lavender}}}"
+  },
+  {
+    "id": "math.30381.295",
+    "input": "\\color{LimeGreen}{\\text{LimeGreen}}",
+    "texvcjs": "\\color {LimeGreen}{{\\text{LimeGreen}}}"
+  },
+  {
+    "id": "math.30381.296",
+    "input": "\\color{Magenta}{\\text{Magenta}}",
+    "texvcjs": "\\color {Magenta}{{\\text{Magenta}}}"
+  },
+  {
+    "id": "math.30381.297",
+    "input": "\\color{Mahogany}{\\text{Mahogany}}",
+    "texvcjs": "\\color {Mahogany}{{\\text{Mahogany}}}"
+  },
+  {
+    "id": "math.30381.298",
+    "input": "\\color{Maroon}{\\text{Maroon}}",
+    "texvcjs": "\\color {Maroon}{{\\text{Maroon}}}"
+  },
+  {
+    "id": "math.30381.299",
+    "input": "\\color{Melon}{\\text{Melon}}",
+    "texvcjs": "\\color {Melon}{{\\text{Melon}}}"
+  },
+  {
+    "id": "math.30381.300",
+    "input": "\\color{MidnightBlue}{\\text{MidnightBlue}}",
+    "texvcjs": "\\color {MidnightBlue}{{\\text{MidnightBlue}}}"
+  },
+  {
+    "id": "math.30381.301",
+    "input": "\\color{Mulberry}{\\text{Mulberry}}",
+    "texvcjs": "\\color {Mulberry}{{\\text{Mulberry}}}"
+  },
+  {
+    "id": "math.30381.302",
+    "input": "\\color{NavyBlue}{\\text{NavyBlue}}",
+    "texvcjs": "\\color {NavyBlue}{{\\text{NavyBlue}}}"
+  },
+  {
+    "id": "math.30381.303",
+    "input": "\\color{OliveGreen}{\\text{OliveGreen}}",
+    "texvcjs": "\\color {OliveGreen}{{\\text{OliveGreen}}}"
+  },
+  {
+    "id": "math.30381.304",
+    "input": "\\color{Orange}{\\text{Orange}}",
+    "texvcjs": "\\color {Orange}{{\\text{Orange}}}"
+  },
+  {
+    "id": "math.30381.305",
+    "input": "\\color{OrangeRed}{\\text{OrangeRed}}",
+    "texvcjs": "\\color {OrangeRed}{{\\text{OrangeRed}}}"
+  },
+  {
+    "id": "math.30381.306",
+    "input": "\\color{Orchid}{\\text{Orchid}}",
+    "texvcjs": "\\color {Orchid}{{\\text{Orchid}}}"
+  },
+  {
+    "id": "math.30381.307",
+    "input": "\\color{Peach}{\\text{Peach}}",
+    "texvcjs": "\\color {Peach}{{\\text{Peach}}}"
+  },
+  {
+    "id": "math.30381.308",
+    "input": "\\color{Periwinkle}{\\text{Periwinkle}}",
+    "texvcjs": "\\color {Periwinkle}{{\\text{Periwinkle}}}"
+  },
+  {
+    "id": "math.30381.309",
+    "input": "\\color{PineGreen}{\\text{PineGreen}}",
+    "texvcjs": "\\color {PineGreen}{{\\text{PineGreen}}}"
+  },
+  {
+    "id": "math.30381.310",
+    "input": "\\color{Plum}{\\text{Plum}}",
+    "texvcjs": "\\color {Plum}{{\\text{Plum}}}"
+  },
+  {
+    "id": "math.30381.311",
+    "input": "\\color{ProcessBlue}{\\text{ProcessBlue}}",
+    "texvcjs": "\\color {ProcessBlue}{{\\text{ProcessBlue}}}"
+  },
+  {
+    "id": "math.30381.312",
+    "input": "\\color{Purple}{\\text{Purple}}",
+    "texvcjs": "\\color {Purple}{{\\text{Purple}}}"
+  },
+  {
+    "id": "math.30381.313",
+    "input": "\\color{RawSienna}{\\text{RawSienna}}",
+    "texvcjs": "\\color {RawSienna}{{\\text{RawSienna}}}"
+  },
+  {
+    "id": "math.30381.314",
+    "input": "\\color{Red}{\\text{Red}}",
+    "texvcjs": "\\color {Red}{{\\text{Red}}}"
+  },
+  {
+    "id": "math.30381.315",
+    "input": "\\color{RedOrange}{\\text{RedOrange}}",
+    "texvcjs": "\\color {RedOrange}{{\\text{RedOrange}}}"
+  },
+  {
+    "id": "math.30381.316",
+    "input": "\\color{RedViolet}{\\text{RedViolet}}",
+    "texvcjs": "\\color {RedViolet}{{\\text{RedViolet}}}"
+  },
+  {
+    "id": "math.30381.317",
+    "input": "\\color{Rhodamine}{\\text{Rhodamine}}",
+    "texvcjs": "\\color {Rhodamine}{{\\text{Rhodamine}}}"
+  },
+  {
+    "id": "math.30381.318",
+    "input": "\\color{RoyalBlue}{\\text{RoyalBlue}}",
+    "texvcjs": "\\color {RoyalBlue}{{\\text{RoyalBlue}}}"
+  },
+  {
+    "id": "math.30381.319",
+    "input": "\\color{RoyalPurple}{\\text{RoyalPurple}}",
+    "texvcjs": "\\color {RoyalPurple}{{\\text{RoyalPurple}}}"
+  },
+  {
+    "id": "math.30381.320",
+    "input": "\\color{RubineRed}{\\text{RubineRed}}",
+    "texvcjs": "\\color {RubineRed}{{\\text{RubineRed}}}"
+  },
+  {
+    "id": "math.30381.321",
+    "input": "\\color{Salmon}{\\text{Salmon}}",
+    "texvcjs": "\\color {Salmon}{{\\text{Salmon}}}"
+  },
+  {
+    "id": "math.30381.322",
+    "input": "\\color{SeaGreen}{\\text{SeaGreen}}",
+    "texvcjs": "\\color {SeaGreen}{{\\text{SeaGreen}}}"
+  },
+  {
+    "id": "math.30381.323",
+    "input": "\\color{Sepia}{\\text{Sepia}}",
+    "texvcjs": "\\color {Sepia}{{\\text{Sepia}}}"
+  },
+  {
+    "id": "math.30381.324",
+    "input": "\\color{SkyBlue}{\\text{SkyBlue}}",
+    "texvcjs": "\\color {SkyBlue}{{\\text{SkyBlue}}}"
+  },
+  {
+    "id": "math.30381.325",
+    "input": "\\color{SpringGreen}{\\text{SpringGreen}}",
+    "texvcjs": "\\color {SpringGreen}{{\\text{SpringGreen}}}"
+  },
+  {
+    "id": "math.30381.326",
+    "input": "\\color{Tan}{\\text{Tan}}",
+    "texvcjs": "\\color {Tan}{{\\text{Tan}}}"
+  },
+  {
+    "id": "math.30381.327",
+    "input": "\\color{TealBlue}{\\text{TealBlue}}",
+    "texvcjs": "\\color {TealBlue}{{\\text{TealBlue}}}"
+  },
+  {
+    "id": "math.30381.328",
+    "input": "\\pagecolor{Gray}\\color{Thistle}{\\text{Thistle}}",
+    "texvcjs": "\\pagecolor {Gray}\\color {Thistle}{{\\text{Thistle}}}"
+  },
+  {
+    "id": "math.30381.329",
+    "input": "\\color{Turquoise}{\\text{Turquoise}}",
+    "texvcjs": "\\color {Turquoise}{{\\text{Turquoise}}}"
+  },
+  {
+    "id": "math.30381.330",
+    "input": "\\color{Violet}{\\text{Violet}}",
+    "texvcjs": "\\color {Violet}{{\\text{Violet}}}"
+  },
+  {
+    "id": "math.30381.331",
+    "input": "\\color{VioletRed}{\\text{VioletRed}}",
+    "texvcjs": "\\color {VioletRed}{{\\text{VioletRed}}}"
+  },
+  {
+    "id": "math.30381.332",
+    "input": "\\pagecolor{Gray}{\\color{White}{\\text{White}}}",
+    "texvcjs": "\\pagecolor {Gray}{\\color {White}{{\\text{White}}}}"
+  },
+  {
+    "id": "math.30381.333",
+    "input": "\\color{WildStrawberry}{\\text{WildStrawberry}}",
+    "texvcjs": "\\color {WildStrawberry}{{\\text{WildStrawberry}}}"
+  },
+  {
+    "id": "math.30381.334",
+    "input": "\\pagecolor{Gray}\\color{Yellow}{\\text{Yellow}}",
+    "texvcjs": "\\pagecolor {Gray}\\color {Yellow}{{\\text{Yellow}}}"
+  },
+  {
+    "id": "math.30381.335",
+    "input": "\\color{YellowGreen}{\\text{YellowGreen}}",
+    "texvcjs": "\\color {YellowGreen}{{\\text{YellowGreen}}}"
+  },
+  {
+    "id": "math.30381.336",
+    "input": "\\color{YellowOrange}{\\text{YellowOrange}}",
+    "texvcjs": "\\color {YellowOrange}{{\\text{YellowOrange}}}"
+  },
+  {
+    "id": "math.30381.337",
+    "input": "\\pagecolor{Gray}x^2",
+    "texvcjs": "\\pagecolor {Gray}x^{2}"
+  },
+  {
+    "id": "math.30381.338",
+    "input": "\\pagecolor{Goldenrod}y^3",
+    "texvcjs": "\\pagecolor {Goldenrod}y^{3}"
+  },
+  {
+    "id": "math.30381.339",
+    "input": "\\pagecolor{Gray}x^2",
+    "texvcjs": "\\pagecolor {Gray}x^{2}"
+  },
+  {
+    "id": "math.30381.340",
+    "input": "\\pagecolor{Goldenrod}y^3",
+    "texvcjs": "\\pagecolor {Goldenrod}y^{3}"
+  },
+  {
+    "id": "math.30381.341",
+    "input": "\\definecolor{myorange}{RGB}{255,165,100}\\color{myorange}e^{i \\pi}\\color{Black} + 1 = 0",
+    "texvcjs": "\\definecolor {myorange}{RGB}{255,165,100}\\color {myorange}e^{{i\\pi }}\\color {Black}+1=0"
+  },
+  {
+    "id": "math.30381.342",
+    "input": "a \\qquad b",
+    "texvcjs": "a\\qquad b"
+  },
+  {
+    "id": "math.30381.343",
+    "input": "a \\quad b",
+    "texvcjs": "a\\quad b"
+  },
+  {
+    "id": "math.30381.344",
+    "input": "a\\ b",
+    "texvcjs": "a\\ b"
+  },
+  {
+    "id": "math.30381.345",
+    "input": "a \\mbox{ } b",
+    "texvcjs": "a{\\mbox{ }}b"
+  },
+  {
+    "id": "math.30381.346",
+    "input": "a\\;b",
+    "texvcjs": "a\\;b"
+  },
+  {
+    "id": "math.30381.347",
+    "input": "a\\,b",
+    "texvcjs": "a\\,b"
+  },
+  {
+    "id": "math.30381.348",
+    "input": "ab",
+    "texvcjs": "ab"
+  },
+  {
+    "id": "math.30381.349",
+    "input": "\\mathit{ab}",
+    "texvcjs": "{\\mathit  {ab}}"
+  },
+  {
+    "id": "math.30381.350",
+    "input": "a\\!b",
+    "texvcjs": "a\\!b"
+  },
+  {
+    "id": "math.30381.351",
+    "input": "0+1+2+3+4+5+6+7+8+9+10+11+12+13+14+15+16+17+18+19+20+\\cdots",
+    "texvcjs": "0+1+2+3+4+5+6+7+8+9+10+11+12+13+14+15+16+17+18+19+20+\\cdots "
+  },
+  {
+    "id": "math.30381.352",
+    "input": "{0+1+2+3+4+5+6+7+8+9+10+11+12+13+14+15+16+17+18+19+20+\\cdots}",
+    "texvcjs": "{0+1+2+3+4+5+6+7+8+9+10+11+12+13+14+15+16+17+18+19+20+\\cdots }"
+  },
+  {
+    "id": "math.30381.353",
+    "input": "\\int_{-N}^{N} e^x\\, dx",
+    "texvcjs": "\\int _{{-N}}^{{N}}e^{x}\\,dx"
+  },
+  {
+    "id": "math.30381.354",
+    "input": "\\iint",
+    "texvcjs": "\\iint "
+  },
+  {
+    "id": "math.30381.355",
+    "input": "\\oint",
+    "texvcjs": "\\oint "
+  },
+  {
+    "id": "math.30381.356",
+    "input": "\\iint\\limits_{S}\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\subset\\!\\supset \\mathbf D \\cdot \\mathrm{d}\\mathbf A",
+    "texvcjs": "\\iint \\limits _{{S}}\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\subset \\!\\supset {\\mathbf  D}\\cdot {\\mathrm  {d}}{\\mathbf  A}"
+  },
+  {
+    "id": "math.30381.357",
+    "input": "\\int\\!\\!\\!\\!\\int_{\\partial V}\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\;\\;\\;\\bigcirc\\,\\,\\mathbf D\\cdot\\mathrm{d}\\mathbf A",
+    "texvcjs": "\\int \\!\\!\\!\\!\\int _{{\\partial V}}\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\;\\;\\;\\bigcirc \\,\\,{\\mathbf  D}\\cdot {\\mathrm  {d}}{\\mathbf  A}"
+  },
+  {
+    "id": "math.30381.358",
+    "input": "\\int\\!\\!\\!\\!\\!\\int\\!\\!\\!\\!\\!\\int_{\\partial V}\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\;\\;\\;\\subset\\!\\supset \\mathbf D\\cdot\\mathrm{d}\\mathbf A",
+    "texvcjs": "\\int \\!\\!\\!\\!\\!\\int \\!\\!\\!\\!\\!\\int _{{\\partial V}}\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\;\\;\\;\\subset \\!\\supset {\\mathbf  D}\\cdot {\\mathrm  {d}}{\\mathbf  A}"
+  },
+  {
+    "id": "math.30381.359",
+    "input": "\\int\\!\\!\\!\\!\\!\\int\\!\\!\\!\\!\\!\\int_{\\partial V}\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\;\\;\\;\\bigcirc\\,\\,\\mathbf D\\;\\cdot\\mathrm{d}\\mathbf A",
+    "texvcjs": "\\int \\!\\!\\!\\!\\!\\int \\!\\!\\!\\!\\!\\int _{{\\partial V}}\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\!\\;\\;\\;\\bigcirc \\,\\,{\\mathbf  D}\\;\\cdot {\\mathrm  {d}}{\\mathbf  A}"
+  },
+  {
+    "id": "math.30381.360",
+    "input": "{\\scriptstyle S}",
+    "texvcjs": "{\\scriptstyle S}"
+  },
+  {
+    "id": "math.30381.361",
+    "input": "( \\nabla \\times \\bold{F} ) \\cdot {\\rm d}\\bold{S} = \\oint_{\\partial S} \\bold{F} \\cdot {\\rm d}\\boldsymbol{\\ell} ",
+    "texvcjs": "(\\nabla \\times {\\mathbf  {F}})\\cdot {{\\rm {d}}}{\\mathbf  {S}}=\\oint _{{\\partial S}}{\\mathbf  {F}}\\cdot {{\\rm {d}}}{\\boldsymbol  {\\ell }}"
+  },
+  {
+    "id": "math.30381.362",
+    "input": "{\\scriptstyle S}",
+    "texvcjs": "{\\scriptstyle S}"
+  },
+  {
+    "id": "math.30381.363",
+    "input": "( \\nabla \\times \\bold{F} ) \\cdot {\\rm d}\\bold{S} = \\oint_{\\partial S} \\bold{F} \\cdot {\\rm d}\\boldsymbol{\\ell} ",
+    "texvcjs": "(\\nabla \\times {\\mathbf  {F}})\\cdot {{\\rm {d}}}{\\mathbf  {S}}=\\oint _{{\\partial S}}{\\mathbf  {F}}\\cdot {{\\rm {d}}}{\\boldsymbol  {\\ell }}"
+  },
+  {
+    "id": "math.30381.364",
+    "input": "\\oint_C \\bold{B} \\cdot {\\rm d} \\boldsymbol{\\ell} = \\mu_0 ",
+    "texvcjs": "\\oint _{C}{\\mathbf  {B}}\\cdot {{\\rm {d}}}{\\boldsymbol  {\\ell }}=\\mu _{0}"
+  },
+  {
+    "id": "math.30381.365",
+    "input": "{\\scriptstyle S}",
+    "texvcjs": "{\\scriptstyle S}"
+  },
+  {
+    "id": "math.30381.366",
+    "input": "\\left ( \\bold{J} + \\epsilon_0\\frac{\\partial \\bold{E}}{\\partial t} \\right ) \\cdot {\\rm d}\\bold{S}",
+    "texvcjs": "\\left({\\mathbf  {J}}+\\epsilon _{0}{\\frac  {\\partial {\\mathbf  {E}}}{\\partial t}}\\right)\\cdot {{\\rm {d}}}{\\mathbf  {S}}"
+  },
+  {
+    "id": "math.30381.367",
+    "input": "\\oint_{\\partial S} \\bold{B} \\cdot {\\rm d} \\boldsymbol{\\ell} = \\mu_0 ",
+    "texvcjs": "\\oint _{{\\partial S}}{\\mathbf  {B}}\\cdot {{\\rm {d}}}{\\boldsymbol  {\\ell }}=\\mu _{0}"
+  },
+  {
+    "id": "math.30381.368",
+    "input": "{\\scriptstyle S}",
+    "texvcjs": "{\\scriptstyle S}"
+  },
+  {
+    "id": "math.30381.369",
+    "input": "\\left ( \\bold{J} + \\epsilon_0\\frac{\\partial \\bold{E}}{\\partial t} \\right ) \\cdot {\\rm d}\\bold{S}",
+    "texvcjs": "\\left({\\mathbf  {J}}+\\epsilon _{0}{\\frac  {\\partial {\\mathbf  {E}}}{\\partial t}}\\right)\\cdot {{\\rm {d}}}{\\mathbf  {S}}"
+  },
+  {
+    "id": "math.30381.370",
+    "input": "\\bold{P} = ",
+    "texvcjs": "{\\mathbf  {P}}="
+  },
+  {
+    "id": "math.30381.371",
+    "input": "{\\scriptstyle \\partial \\Omega}",
+    "texvcjs": "{\\scriptstyle \\partial \\Omega }"
+  },
+  {
+    "id": "math.30381.372",
+    "input": "\\bold{T} \\cdot {\\rm d}^3\\boldsymbol{\\Sigma} = 0",
+    "texvcjs": "{\\mathbf  {T}}\\cdot {{\\rm {d}}}^{3}{\\boldsymbol  {\\Sigma }}=0"
+  },
+  {
+    "id": "math.30381.373",
+    "input": "\\bold{P} = ",
+    "texvcjs": "{\\mathbf  {P}}="
+  },
+  {
+    "id": "math.30381.374",
+    "input": "{\\scriptstyle \\partial \\Omega}",
+    "texvcjs": "{\\scriptstyle \\partial \\Omega }"
+  },
+  {
+    "id": "math.30381.375",
+    "input": "\\bold{T} \\cdot {\\rm d}^3\\boldsymbol{\\Sigma} = 0",
+    "texvcjs": "{\\mathbf  {T}}\\cdot {{\\rm {d}}}^{3}{\\boldsymbol  {\\Sigma }}=0"
+  },
+  {
+    "id": "math.30381.376",
+    "input": "\\overset{\\frown}{AB}",
+    "texvcjs": "{\\overset  {\\frown }{AB}}"
+  },
+  {
+    "id": "math.30381.377",
+    "input": "ax^2 + bx + c = 0",
+    "texvcjs": "ax^{2}+bx+c=0"
+  },
+  {
+    "id": "math.30381.378",
+    "input": "ax^2 + bx + c = 0",
+    "texvcjs": "ax^{2}+bx+c=0"
+  },
+  {
+    "id": "math.30381.379",
+    "input": "x={-b\\pm\\sqrt{b^2-4ac} \\over 2a}",
+    "texvcjs": "x={-b\\pm {\\sqrt  {b^{2}-4ac}} \\over 2a}"
+  },
+  {
+    "id": "math.30381.380",
+    "input": "x={-b\\pm\\sqrt{b^2-4ac} \\over 2a}",
+    "texvcjs": "x={-b\\pm {\\sqrt  {b^{2}-4ac}} \\over 2a}"
+  },
+  {
+    "id": "math.30381.381",
+    "input": "2 = \\left( \\frac{\\left(3-x\\right) \\times 2}{3-x} \\right)",
+    "texvcjs": "2=\\left({\\frac  {\\left(3-x\\right)\\times 2}{3-x}}\\right)"
+  },
+  {
+    "id": "math.30381.382",
+    "input": "2 = \\left(\n\\frac{\\left(3-x\\right) \\times 2}{3-x}\n\\right)",
+    "texvcjs": "2=\\left({\\frac  {\\left(3-x\\right)\\times 2}{3-x}}\\right)"
+  },
+  {
+    "id": "math.30381.383",
+    "input": "S_{\\text{new}} = S_{\\text{old}} - \\frac{ \\left( 5-T \\right) ^2} {2}",
+    "texvcjs": "S_{{{\\text{new}}}}=S_{{{\\text{old}}}}-{\\frac  {\\left(5-T\\right)^{2}}{2}}"
+  },
+  {
+    "id": "math.30381.384",
+    "input": "S_{\\text{new}} = S_{\\text{old}} - \\frac{ \\left( 5-T \\right) ^2} {2}",
+    "texvcjs": "S_{{{\\text{new}}}}=S_{{{\\text{old}}}}-{\\frac  {\\left(5-T\\right)^{2}}{2}}"
+  },
+  {
+    "id": "math.30381.385",
+    "input": "\\int_a^x \\!\\!\\!\\int_a^s f(y)\\,dy\\,ds = \\int_a^x f(y)(x-y)\\,dy",
+    "texvcjs": "\\int _{a}^{x}\\!\\!\\!\\int _{a}^{s}f(y)\\,dy\\,ds=\\int _{a}^{x}f(y)(x-y)\\,dy"
+  },
+  {
+    "id": "math.30381.386",
+    "input": "\\int_a^x \\!\\!\\!\\int_a^s f(y)\\,dy\\,ds\n= \\int_a^x f(y)(x-y)\\,dy",
+    "texvcjs": "\\int _{a}^{x}\\!\\!\\!\\int _{a}^{s}f(y)\\,dy\\,ds=\\int _{a}^{x}f(y)(x-y)\\,dy"
+  },
+  {
+    "id": "math.30381.387",
+    "input": "\\det(\\mathsf{A}-\\lambda\\mathsf{I}) = 0",
+    "texvcjs": "\\det({\\mathsf  {A}}-\\lambda {\\mathsf  {I}})=0"
+  },
+  {
+    "id": "math.30381.388",
+    "input": "\\det(\\mathsf{A}-\\lambda\\mathsf{I}) = 0",
+    "texvcjs": "\\det({\\mathsf  {A}}-\\lambda {\\mathsf  {I}})=0"
+  },
+  {
+    "id": "math.30381.389",
+    "input": "\\sum_{i=0}^{n-1} i",
+    "texvcjs": "\\sum _{{i=0}}^{{n-1}}i"
+  },
+  {
+    "id": "math.30381.390",
+    "input": "\\sum_{i=0}^{n-1} i",
+    "texvcjs": "\\sum _{{i=0}}^{{n-1}}i"
+  },
+  {
+    "id": "math.30381.391",
+    "input": "\\sum_{m=1}^\\infty\\sum_{n=1}^\\infty\\frac{m^2\\,n}{3^m\\left(m\\,3^n+n\\,3^m\\right)}",
+    "texvcjs": "\\sum _{{m=1}}^{\\infty }\\sum _{{n=1}}^{\\infty }{\\frac  {m^{2}\\,n}{3^{m}\\left(m\\,3^{n}+n\\,3^{m}\\right)}}"
+  },
+  {
+    "id": "math.30381.392",
+    "input": "\\sum_{m=1}^\\infty\\sum_{n=1}^\\infty\\frac{m^2\\,n}\n{3^m\\left(m\\,3^n+n\\,3^m\\right)}",
+    "texvcjs": "\\sum _{{m=1}}^{\\infty }\\sum _{{n=1}}^{\\infty }{\\frac  {m^{2}\\,n}{3^{m}\\left(m\\,3^{n}+n\\,3^{m}\\right)}}"
+  },
+  {
+    "id": "math.30381.393",
+    "input": "u'' + p(x)u' + q(x)u=f(x),\\quad x>a",
+    "texvcjs": "u''+p(x)u'+q(x)u=f(x),\\quad x>a"
+  },
+  {
+    "id": "math.30381.394",
+    "input": "u'' + p(x)u' + q(x)u=f(x),\\quad x>a",
+    "texvcjs": "u''+p(x)u'+q(x)u=f(x),\\quad x>a"
+  },
+  {
+    "id": "math.30381.395",
+    "input": "|\\bar{z}| = |z|, |(\\bar{z})^n| = |z|^n, \\arg(z^n) = n \\arg(z)",
+    "texvcjs": "|{\\bar  {z}}|=|z|,|({\\bar  {z}})^{n}|=|z|^{n},\\arg(z^{n})=n\\arg(z)"
+  },
+  {
+    "id": "math.30381.396",
+    "input": "|\\bar{z}| = |z|,\n|(\\bar{z})^n| = |z|^n,\n\\arg(z^n) = n \\arg(z)",
+    "texvcjs": "|{\\bar  {z}}|=|z|,|({\\bar  {z}})^{n}|=|z|^{n},\\arg(z^{n})=n\\arg(z)"
+  },
+  {
+    "id": "math.30381.397",
+    "input": "\\lim_{z\\rightarrow z_0} f(z)=f(z_0)",
+    "texvcjs": "\\lim _{{z\\rightarrow z_{0}}}f(z)=f(z_{0})"
+  },
+  {
+    "id": "math.30381.398",
+    "input": "\\lim_{z\\rightarrow z_0} f(z)=f(z_0)",
+    "texvcjs": "\\lim _{{z\\rightarrow z_{0}}}f(z)=f(z_{0})"
+  },
+  {
+    "id": "math.30381.399",
+    "input": "\\phi_n(\\kappa)\n= \\frac{1}{4\\pi^2\\kappa^2} \\int_0^\\infty \\frac{\\sin(\\kappa R)}{\\kappa R} \\frac{\\partial}{\\partial R} \\left[R^2\\frac{\\partial D_n(R)}{\\partial R}\\right]\\,dR",
+    "texvcjs": "\\phi _{n}(\\kappa )={\\frac  {1}{4\\pi ^{2}\\kappa ^{2}}}\\int _{0}^{\\infty }{\\frac  {\\sin(\\kappa R)}{\\kappa R}}{\\frac  {\\partial }{\\partial R}}\\left[R^{2}{\\frac  {\\partial D_{n}(R)}{\\partial R}}\\right]\\,dR"
+  },
+  {
+    "id": "math.30381.400",
+    "input": "\\phi_n(\\kappa) =\n\\frac{1}{4\\pi^2\\kappa^2} \\int_0^\\infty\n\\frac{\\sin(\\kappa R)}{\\kappa R}\n\\frac{\\partial}{\\partial R}\n\\left[R^2\\frac{\\partial D_n(R)}{\\partial R}\\right]\\,dR",
+    "texvcjs": "\\phi _{n}(\\kappa )={\\frac  {1}{4\\pi ^{2}\\kappa ^{2}}}\\int _{0}^{\\infty }{\\frac  {\\sin(\\kappa R)}{\\kappa R}}{\\frac  {\\partial }{\\partial R}}\\left[R^{2}{\\frac  {\\partial D_{n}(R)}{\\partial R}}\\right]\\,dR"
+  },
+  {
+    "id": "math.30381.401",
+    "input": "\\phi_n(\\kappa) = 0.033C_n^2\\kappa^{-11\/3},\\quad \\frac{1}{L_0}\\ll\\kappa\\ll\\frac{1}{l_0}",
+    "texvcjs": "\\phi _{n}(\\kappa )=0.033C_{n}^{2}\\kappa ^{{-11\/3}},\\quad {\\frac  {1}{L_{0}}}\\ll \\kappa \\ll {\\frac  {1}{l_{0}}}"
+  },
+  {
+    "id": "math.30381.402",
+    "input": "\\phi_n(\\kappa) =\n0.033C_n^2\\kappa^{-11\/3},\\quad\n\\frac{1}{L_0}\\ll\\kappa\\ll\\frac{1}{l_0}",
+    "texvcjs": "\\phi _{n}(\\kappa )=0.033C_{n}^{2}\\kappa ^{{-11\/3}},\\quad {\\frac  {1}{L_{0}}}\\ll \\kappa \\ll {\\frac  {1}{l_{0}}}"
+  },
+  {
+    "id": "math.30381.403",
+    "input": "f(x) = \\begin{cases}1 & -1 \\le x < 0 \\\\\n\\frac{1}{2} & x = 0 \\\\ 1 - x^2 & \\text{otherwise}\\end{cases}",
+    "texvcjs": "f(x)={\\begin{cases}1&-1\\leq x<0\\\\{\\frac  {1}{2}}&x=0\\\\1-x^{2}&{\\text{otherwise}}\\end{cases}}"
+  },
+  {
+    "id": "math.30381.404",
+    "input": "\nf(x) =\n\\begin{cases}\n1 & -1 \\le x < 0 \\\\\n\\frac{1}{2} & x = 0 \\\\\n1 - x^2 & \\text{otherwise}\n\\end{cases}\n",
+    "texvcjs": "f(x)={\\begin{cases}1&-1\\leq x<0\\\\{\\frac  {1}{2}}&x=0\\\\1-x^{2}&{\\text{otherwise}}\\end{cases}}"
+  },
+  {
+    "id": "math.30381.405",
+    "input": "{}_pF_q(a_1,\\dots,a_p;c_1,\\dots,c_q;z) = \\sum_{n=0}^\\infty \\frac{(a_1)_n\\cdots(a_p)_n}{(c_1)_n\\cdots(c_q)_n}\\frac{z^n}{n!}",
+    "texvcjs": "{}_{p}F_{q}(a_{1},\\dots ,a_{p};c_{1},\\dots ,c_{q};z)=\\sum _{{n=0}}^{\\infty }{\\frac  {(a_{1})_{n}\\cdots (a_{p})_{n}}{(c_{1})_{n}\\cdots (c_{q})_{n}}}{\\frac  {z^{n}}{n!}}"
+  },
+  {
+    "id": "math.30381.406",
+    "input": "{}_pF_q(a_1,\\dots,a_p;c_1,\\dots,c_q;z)\n= \\sum_{n=0}^\\infty\n\\frac{(a_1)_n\\cdots(a_p)_n}{(c_1)_n\\cdots(c_q)_n}\n\\frac{z^n}{n!}",
+    "texvcjs": "{}_{p}F_{q}(a_{1},\\dots ,a_{p};c_{1},\\dots ,c_{q};z)=\\sum _{{n=0}}^{\\infty }{\\frac  {(a_{1})_{n}\\cdots (a_{p})_{n}}{(c_{1})_{n}\\cdots (c_{q})_{n}}}{\\frac  {z^{n}}{n!}}"
+  },
+  {
+    "id": "math.30381.407",
+    "input": "\\frac{a}{b}\\ \\tfrac{a}{b}",
+    "texvcjs": "{\\frac  {a}{b}}\\ {\\tfrac  {a}{b}}"
+  },
+  {
+    "id": "math.30381.408",
+    "input": "\\frac{a}{b}\\ \\tfrac{a}{b}",
+    "texvcjs": "{\\frac  {a}{b}}\\ {\\tfrac  {a}{b}}"
+  },
+  {
+    "id": "math.30381.409",
+    "input": "S=dD\\,\\sin\\alpha\\!",
+    "texvcjs": "S=dD\\,\\sin \\alpha \\!"
+  },
+  {
+    "id": "math.30381.410",
+    "input": "S=dD\\,\\sin\\alpha\\!",
+    "texvcjs": "S=dD\\,\\sin \\alpha \\!"
+  },
+  {
+    "id": "math.30381.411",
+    "input": "V=\\frac16\\pi h\\left[3\\left(r_1^2+r_2^2\\right)+h^2\\right]",
+    "texvcjs": "V={\\frac  16}\\pi h\\left[3\\left(r_{1}^{2}+r_{2}^{2}\\right)+h^{2}\\right]"
+  },
+  {
+    "id": "math.30381.412",
+    "input": "V=\\frac16\\pi h\\left[3\\left(r_1^2+r_2^2\\right)+h^2\\right]",
+    "texvcjs": "V={\\frac  16}\\pi h\\left[3\\left(r_{1}^{2}+r_{2}^{2}\\right)+h^{2}\\right]"
+  },
+  {
+    "id": "math.30381.413",
+    "input": "\\begin{align}\nu & = \\tfrac{1}{\\sqrt{2}}(x+y) \\qquad & x &= \\tfrac{1}{\\sqrt{2}}(u+v)\\\\\nv & = \\tfrac{1}{\\sqrt{2}}(x-y) \\qquad & y &= \\tfrac{1}{\\sqrt{2}}(u-v)\n\\end{align}",
+    "texvcjs": "{\\begin{aligned}u&={\\tfrac  {1}{{\\sqrt  {2}}}}(x+y)\\qquad &x&={\\tfrac  {1}{{\\sqrt  {2}}}}(u+v)\\\\v&={\\tfrac  {1}{{\\sqrt  {2}}}}(x-y)\\qquad &y&={\\tfrac  {1}{{\\sqrt  {2}}}}(u-v)\\end{aligned}}"
+  },
+  {
+    "id": "math.30381.414",
+    "input": "\\begin{align}\nu & = \\tfrac{1}{\\sqrt{2}}(x+y) \\qquad & x &= \\tfrac{1}{\\sqrt{2}}(u+v) \\\\\nv & = \\tfrac{1}{\\sqrt{2}}(x-y) \\qquad & y &= \\tfrac{1}{\\sqrt{2}}(u-v)\n\\end{align}",
+    "texvcjs": "{\\begin{aligned}u&={\\tfrac  {1}{{\\sqrt  {2}}}}(x+y)\\qquad &x&={\\tfrac  {1}{{\\sqrt  {2}}}}(u+v)\\\\v&={\\tfrac  {1}{{\\sqrt  {2}}}}(x-y)\\qquad &y&={\\tfrac  {1}{{\\sqrt  {2}}}}(u-v)\\end{aligned}}"
+  }
+]
