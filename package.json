@@ -37,7 +37,6 @@
     "bluebird": "^3.3.5",
     "child-process-promise": "^2.0.1",
     "commander": "^2.9.0",
-    "fs-bluebird": "^0.1.4",
     "js-yaml": "^3.6.0",
     "mkdirp-bluebird": "^1.0.1",
     "request-promise": "^3.0.0",
