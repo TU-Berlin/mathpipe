@@ -25,6 +25,19 @@ describe('Index', function () {
     });
     it('should process a file', function() {
         this.timeout(50000);
-        return pipe.processFile('../test/files/hash.json');
+        var tmp = pipe.config.conf.chunk_size;
+        pipe.config.conf.chunk_size = 2;
+        return pipe.processFile('../test/files/extended.json')
+            .then(function(){
+                 pipe.config.conf.chunk_size =  tmp;
+            });
+    });
+    it('should process a simple file', function() {
+        this.timeout(50000);
+        return pipe.processFile('../test/files/simple-format.json');
+    });
+    it('should process a unusually formatted file', function() {
+        this.timeout(50000);
+        return pipe.processFile('../test/files/unusual-format.json');
     });
 });
