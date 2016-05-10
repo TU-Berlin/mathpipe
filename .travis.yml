@@ -2,12 +2,15 @@ sudo: false
 addons:
   apt:
     packages:
+    #texvc dependencies
       - build-essential
       - dvipng
       - ocaml
       - texlive-fonts-recommended
       - texlive-lang-greek
       - texlive-latex-recommended
+    #latexml dependencies according to http://formulasearchengine.com/LaTeXML
+      - latexml
 language: node_js
 node_js:
   - "4.3.0"
@@ -17,6 +20,7 @@ before_script:
   - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"
   - sleep 3 # give xvfb some time to start
-  - cd ./tools/texvc && make
+  - cd ./tools/texvc && make && cd ../..
+  - cd ./tools/LaTeXML && perl Makefile.PL && make
 script: npm run-script coverage
 after_success: npm run coveralls
