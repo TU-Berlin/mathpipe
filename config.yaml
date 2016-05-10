@@ -9,6 +9,9 @@ out_dir: /tmp
 # Path of texvc
 texvc_path: ./tools/texvc/texvc
 
+# Path of LaTeXML
+latexml_path: ./tools/LaTeXML/bin/latexmlmath
+
 # Restbase url
 # For a local installation the url would look like
 # 'http://localhost:7231/wikimedia.org/v1/media/math/'
