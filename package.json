@@ -41,6 +41,7 @@
     "js-yaml": "^3.6.0",
     "mkdirp-bluebird": "^1.0.1",
     "request-promise": "^3.0.0",
+    "screenshot-promise": "^1.1.0",
     "selenium-webdriver": "^2.53.2"
   }
 }
