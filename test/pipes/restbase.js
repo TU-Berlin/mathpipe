@@ -15,7 +15,7 @@ describe('restbase', function () {
             return BB.map(restbase.getOutputs(getFoder, getCheck), function(format){
                 return format[1].then( function (file){
                     assert.ok(file.indexOf(tc.inputhash)>0);
-                })
+                });
             });
         });
     });

@@ -11,7 +11,7 @@ describe('latexml', function () {
             var lt = latexml(pipe.getFolder(tc.input, pipe.config.conf.out_dir));
             return lt.then(function (res) {
                 assert.ok(res.indexOf(tc.inputhash) > 0);
-            })
+            });
         });
     });
     invalidTests.forEach(function (tc) {
