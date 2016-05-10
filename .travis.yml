@@ -10,17 +10,31 @@ addons:
       - texlive-lang-greek
       - texlive-latex-recommended
     #latexml dependencies according to http://formulasearchengine.com/LaTeXML
-      - latexml
+      - libarchive-zip-perl
+      - libfile-which-perl
+      - libimage-size-perl
+      - libio-string-perl
+      - libjson-xs-perl
+      - libwww-perl
+      - libparse-recdescent-perl
+      - liburi-perl
+      - libxml2
+      - libxml-libxml-perl
+      - libxslt1.1
+      - libxml-libxslt-perl
+      - texlive
+      - imagemagick
+      - perlmagick
 language: node_js
 node_js:
-#  - "4.3.0"
+  - "4.3.0"
   - "4"
-#  - "5"
+  - "5"
 before_script:
   - "export DISPLAY=:99.0"
   - "sh -e /etc/init.d/xvfb start"
   - sleep 3 # give xvfb some time to start
   - cd ./tools/texvc && make && cd ../..
-  - cd ./tools/LaTeXML && perl Makefile.PL && make
+  - cd ./tools/LaTeXML && perl Makefile.PL && make && make test
 script: npm run-script coverage
 after_success: npm run coveralls
