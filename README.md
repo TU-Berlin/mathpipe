@@ -38,6 +38,12 @@ make
 make test
 ```
 (The last command is optional)
+
+If you have no real X-Server you can use xvfb
+```
+sudo apt-get install xvfg
+/sbin/start-stop-daemon --start --quiet --pidfile /tmp/custom_xvfb_99.pid --make-pidfile --background --exec /usr/bin/Xvfb -- :99 -ac -screen 0 1280x1024x16
+```
 ## testing
 
 To run the tests run
