@@ -1,8 +1,6 @@
 {
   "predef": [
     "setImmediate",
-    "describe",
-    "it",
     "Map",
     "Promise",
     "Set"
@@ -25,5 +23,6 @@
   "multistr": true,
   "node": true,
   "nomen": false,
-  "loopfunc": true
+  "loopfunc": true,
+  "mocha": true
 }

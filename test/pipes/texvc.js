@@ -4,8 +4,16 @@ var testcases = require('../files/hash.json');
 var invalidTests = require('../files/invalid.json');
 var pipe = require('../..');
 var assert = require('assert');
+var path = require('path');
+var fs = require('fs');
 
 describe('texvc', function () {
+    before(function(){
+        if ( ! fs.existsSync( path.resolve(__dirname + '/../../' + pipe.config.conf.texvc_path) )){
+            console.error('no texvc exec found skip tests');
+            this.skip();
+        }
+    });
     testcases.forEach(function (tc) {
         it('should process ' + JSON.stringify(tc.input), function () {
            return texvc(pipe.getFolder(tc.input, pipe.config.conf.out_dir));
