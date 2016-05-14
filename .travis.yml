@@ -37,9 +37,8 @@ before_script:
   - "sh -e /etc/init.d/xvfb start"
   - sleep 3 # give xvfb some time to start
   - cd ./tools/texvc && make && cd ../..
-  - cd ./tools/LaTeXML && perl Makefile.PL && make && make test
-  - pwd
-  - which latexmlmath
-  - ./bin/latexmlmath "{\\sen}" --preload texvc --verbose
+  - cd ./tools/LaTeXML && perl Makefile.PL && make # && make test
+  - export PERL5LIB=`pwd`/blib/lib && echo $PERL5LIB
+  - bin/latexmlmath "{\\sen}" --verbose
 script: npm run-script coverage
 after_success: npm run coveralls
