@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Mathpipe by physikerwelt</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Mathpipe</h1>
+        <h2></h2>
+
+        <section id="downloads">
+          <a href="https://github.com/physikerwelt/mathpipe/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/physikerwelt/mathpipe/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/physikerwelt/mathpipe" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a id="mathpipe" class="anchor" href="#mathpipe" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>mathpipe</h1>
+
+<p><a href="https://travis-ci.org/physikerwelt/mathpipe"><img src="https://travis-ci.org/physikerwelt/mathpipe.svg?branch=master" alt="Build Status"></a>
+<a href="https://coveralls.io/github/physikerwelt/mathpipe?branch=master"><img src="https://coveralls.io/repos/github/physikerwelt/mathpipe/badge.svg?branch=master" alt="Coverage Status"></a>
+<a href="https://www.bithound.io/github/physikerwelt/mathpipe"><img src="https://www.bithound.io/github/physikerwelt/mathpipe/badges/score.svg" alt="bitHound Overall Score"></a>
+<a href="https://codeclimate.com/github/physikerwelt/mathpipe"><img src="https://codeclimate.com/github/physikerwelt/mathpipe/badges/gpa.svg" alt="Code Climate"></a></p>
+
+<p>Processes tex to png images using different routes</p>
+
+<h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>installation</h2>
+
+<p>To install run</p>
+
+<pre><code>npm install
+</code></pre>
+
+<p>To use texvc you need to install in addition</p>
+
+<pre><code>git submodule init
+git submodule update
+sudo apt-get install build-essential dvipng ocaml \
+  texlive-fonts-recommended texlive-lang-greek texlive-latex-recommended
+cd tools/texvc
+make
+</code></pre>
+
+<p>To use LaTeXML additional installation is required:</p>
+
+<div class="highlight highlight-source-shell"><pre>git submodule init
+git submodule update
+sudo apt-get install   \
+  libarchive-zip-perl libfile-which-perl libimage-size-perl \
+  libio-string-perl libjson-xs-perl libwww-perl libparse-recdescent-perl \
+  liburi-perl libxml2 libxml-libxml-perl libxslt1.1 libxml-libxslt-perl \
+  texlive imagemagick perlmagick make
+<span class="pl-c1">cd</span> tools/LaTeXML
+perl Makefile.PL
+make
+make <span class="pl-c1">test</span></pre></div>
+
+<p>(The last command is optional)</p>
+
+<p>If you have no real X-Server you can use xvfb</p>
+
+<pre><code>sudo apt-get install xvfg
+/sbin/start-stop-daemon --start --quiet --pidfile /tmp/custom_xvfb_99.pid --make-pidfile --background --exec /usr/bin/Xvfb -- :99 -ac -screen 0 1280x1024x16
+</code></pre>
+
+<h2>
+<a id="testing" class="anchor" href="#testing" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>testing</h2>
+
+<p>To run the tests run</p>
+
+<pre><code> npm test
+</code></pre>
+
+<p>for coverage tests use</p>
+
+<pre><code> npm run-script coverage
+</code></pre>
+
+<h2>
+<a id="running" class="anchor" href="#running" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>running</h2>
+
+<p>To run the program run</p>
+
+<pre><code>bin/mathpipe --help
+</code></pre>
+
+<h2>
+<a id="testdata" class="anchor" href="#testdata" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>testdata</h2>
+
+<p>You can get a <a href="http://en.formulasearchengine.com/w/images/math-formula-testcases.json">compact test data</a>
+or the full english <a href="https://github.com/wikimedia/texvcjs/blob/master/test/en-wiki-formulae.json?raw=true">wikipedia dataset</a>. </p>
+
+<p>Thereafter run</p>
+
+<pre><code>mathpipe convert &lt;path relative to the mathpipe executable&gt; [output directory]
+</code></pre>
+
+<p>For larger dataset it's recommended to adjust the <a href="config.yaml">config</a>.</p>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
