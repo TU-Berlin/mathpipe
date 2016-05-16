@@ -6,6 +6,8 @@
 
 Processes tex to png images using different routes
 
+[![overview](doc/mathpipe.png)](http://physikerwelt.github.io/mathpipe/mathpipe.html)
+
 ## installation
 
 To install run
