@@ -35,6 +35,7 @@ services:
       # more per-service config settings
       svg: true
       img: true
+      png: true
       texvcinfo: true
       speech: true
       speech_on: false
