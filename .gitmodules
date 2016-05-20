@@ -4,3 +4,9 @@
 [submodule "tools/LaTeXML"]
 	path = tools/LaTeXML
 	url = https://github.com/brucemiller/LaTeXML
+[submodule "tools/mathoid"]
+	path = tools/mathoid
+	url = https://github.com/wikimedia/mathoid
+[submodule "tools/restbase"]
+	path = tools/restbase
+	url = https://github.com/wikimedia/restbase
