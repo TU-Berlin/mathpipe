@@ -8,11 +8,11 @@ var path = require('path');
 var fs = require('fs');
 
 describe('latexml', function () {
-    before(function(){
-       if ( ! fs.existsSync( path.resolve(__dirname + '/../../' + pipe.config.conf.latexml_path) )){
-           console.error('no latexml exec found skip tests');
-           this.skip();
-       }
+    before(function () {
+        if (!fs.existsSync(path.resolve(pipe.config.conf.latexml_path))) {
+            console.error('no latexml exec found skip tests');
+            this.skip();
+        }
     });
     testcases.forEach(function (tc) {
         it('should process ' + JSON.stringify(tc.input), function () {

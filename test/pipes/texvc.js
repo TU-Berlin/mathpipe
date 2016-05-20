@@ -8,27 +8,27 @@ var path = require('path');
 var fs = require('fs');
 
 describe('texvc', function () {
-    before(function(){
-        if ( ! fs.existsSync( path.resolve(__dirname + '/../../' + pipe.config.conf.texvc_path) )){
+    before(function () {
+        if (!fs.existsSync(path.resolve(pipe.config.conf.texvc_path))) {
             console.error('no texvc exec found skip tests');
             this.skip();
         }
     });
     testcases.forEach(function (tc) {
         it('should process ' + JSON.stringify(tc.input), function () {
-           return texvc(pipe.getFolder(tc.input, pipe.config.conf.out_dir));
+            return texvc(pipe.getFolder(tc.input, pipe.config.conf.out_dir));
         });
     });
     invalidTests.forEach(function (tc) {
         it('should process invalid ' + JSON.stringify(tc.input), function () {
             return texvc(pipe.getFolder(tc.input, pipe.config.conf.out_dir))
-                .then(function(){
+                .then(function () {
                     assert.fail('then should not be called');
                 })
-                .catch(function(e){
-                assert.equal(e.name,'Error');
-                assert.ok(e.message.startsWith('texvc failed'));
-            });
+                .catch(function (e) {
+                    assert.equal(e.name, 'Error');
+                    assert.ok(e.message.startsWith('texvc failed'));
+                });
         });
     });
     it('should ignore duplicate requests ', function () {
