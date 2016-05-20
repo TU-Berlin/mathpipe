@@ -15,6 +15,7 @@ To install run
 npm install
 ```
 
+### texvc
 To use texvc you need to install in addition
 ```
 git submodule init
@@ -25,6 +26,7 @@ cd tools/texvc
 make
 ```
 
+### LaTeXML
 To use LaTeXML additional installation is required:
 ```bash
 git submodule init
@@ -40,7 +42,26 @@ make
 make test
 ```
 (The last command is optional)
+### mathoid and restbase
+```bash
+git submodule init
+git submodule update
+sudo apt-get install librsvg2-dev
+cd tools/mathoid
+npm install
+npm test
+node server.js -c ../mathoid.yaml
+```
+```bash
+git submodule init
+git submodule update
+cd tools/restbase
+npm install
+npm test
+node server.js -c ../restbase.yaml
+```
 
+### Xvfg
 If you have no real X-Server you can use xvfb
 ```
 sudo apt-get install xvfg
