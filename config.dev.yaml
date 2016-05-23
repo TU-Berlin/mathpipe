@@ -59,23 +59,3 @@ services:
       #   - if-match
       #   - user-agent
       #   - x-request-id
-
-# The default directory for output
-out_dir: /tmp
-
-# Path of texvc
-texvc_path: ./tools/texvc/texvc
-
-# Path of LaTeXML
-latexml_path: ./tools/LaTeXML/bin/latexmlmath
-
-# Restbase url
-# For a local installation the url would look like
-# 'http://localhost:7231/wikimedia.org/v1/media/math/'
-restbase_url: http://api.formulasearchengine.com/en.wikipedia.org/v1/media/math/
-
-# Number of formulae that are processed togehter
-chunk_size: 200
-
-# Scaling factor for firefox
-firefox_scale: 5

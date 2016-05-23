@@ -18,7 +18,11 @@
     "macro",
     "replacement",
     "semantics",
-    "texvc"
+    "texvc",
+    "REST",
+    "API",
+    "service template",
+    "MediaWiki"
   ],
   "author": "Moritz Schubotz",
   "license": "ISC",
@@ -28,19 +32,37 @@
   "homepage": "https://github.com/physikerwelt/mathpipe#readme",
   "devDependencies": {
     "coveralls": "^2.11.9",
-    "istanbul": "^0.4.2",
+    "extend": "^3.0.0",
+    "istanbul": "^0.4.3",
     "jshint": "^2.9.1",
     "mocha": "^2.4.5",
-    "mocha-lcov-reporter": "^1.2.0"
+    "mocha-jshint": "^2.3.1",
+    "mocha-lcov-reporter": "^1.2.0",
+    "swagger-router": "^0.4.2"
   },
   "dependencies": {
     "bluebird": "^3.3.5",
+    "body-parser": "^1.15.0",
+    "bunyan": "^1.8.1",
+    "cassandra-uuid": "^0.0.2",
     "child-process-promise": "^2.0.1",
     "commander": "^2.9.0",
+    "compression": "^1.6.1",
+    "domino": "^1.0.24",
+    "express": "^4.13.4",
     "js-yaml": "^3.6.0",
     "mkdirp-bluebird": "^1.0.1",
+    "preq": "^0.4.9",
     "request-promise": "^3.0.0",
     "screenshot-promise": "^1.1.0",
-    "selenium-webdriver": "^2.53.2"
+    "selenium-webdriver": "^2.53.2",
+    "service-runner": "^1.2.2"
+  },
+  "deploy": {
+    "target": "debian",
+    "node": "4.3.0",
+    "dependencies": {
+      "_all": []
+    }
   }
 }

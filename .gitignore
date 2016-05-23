@@ -87,3 +87,8 @@ jspm_packages
 
 private_notes
 *.iml
+
+Dockerfile
+.idea/
+config.yaml
+npm-debug.log

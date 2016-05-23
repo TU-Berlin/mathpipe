@@ -1,4 +1,7 @@
 "use strict";
+
+// Run jshint as part of normal testing
+require('mocha-jshint')();
 var assert = require('assert');
 var pipe = require('../');
 var testcases = require('./files/hash.json');

@@ -97,10 +97,50 @@ bin/mathpipe --help
 
 ## testdata
 You can get a [compact test data](http://en.formulasearchengine.com/w/images/math-formula-testcases.json)
-or the full english [wikipedia dataset](https://github.com/wikimedia/texvcjs/blob/master/test/en-wiki-formulae.json?raw=true). 
+or the full english [wikipedia dataset](https://github.com/wikimedia/texvcjs/blob/master/test/en-wiki-formulae.json?raw=true).
 
 Thereafter run
 ```
 mathpipe convert <path relative to the mathpipe executable> [output directory]
 ```
 For larger dataset it's recommended to adjust the [config](config.yaml).
+
+Template for creating MediaWiki Services in Node.js
+
+### Running the examples
+
+The template is a fully-working example, so you may try it right away. To
+start the server hosting the REST API, simply run (inside the repo's directory)
+
+```
+npm start
+```
+
+This starts an HTTP server listening on `localhost:6927`. There are several
+routes you may query (with a browser, or `curl` and friends):
+
+* `http://localhost:6927/_info/`
+* `http://localhost:6927/_info/name`
+* `http://localhost:6927/_info/version`
+* `http://localhost:6927/_info/home`
+* `http://localhost:6927/{domain}/v1/siteinfo{/prop}`
+* `http://localhost:6927/{domain}/v1/page/{title}`
+* `http://localhost:6927/{domain}/v1/page/{title}/lead`
+* `http://localhost:6927/ex/err/array`
+* `http://localhost:6927/ex/err/file`
+* `http://localhost:6927/ex/err/manual/error`
+* `http://localhost:6927/ex/err/manual/deny`
+* `http://localhost:6927/ex/err/auth`
+
+### Troubleshooting
+
+In a lot of cases when there is an issue with node it helps to recreate the
+`node_modules` directory:
+
+```
+rm -r node_modules
+npm install
+```
+
+Enjoy!
+
