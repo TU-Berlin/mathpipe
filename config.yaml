@@ -79,3 +79,5 @@ chunk_size: 200
 
 # Scaling factor for firefox
 firefox_scale: 5
+
+selenium_server: false
