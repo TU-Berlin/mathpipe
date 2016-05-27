@@ -72,7 +72,7 @@ latexml_path: ./tools/LaTeXML/bin/latexmlmath
 # Restbase url
 # For a local installation the url would look like
 # 'http://localhost:7231/wikimedia.org/v1/media/math/'
-restbase_url: http://api.formulasearchengine.com/en.wikipedia.org/v1/media/math/
+restbase_url: http://api.formulasearchengine.com/v1/media/math/
 
 # Number of formulae that are processed togehter
 chunk_size: 200
